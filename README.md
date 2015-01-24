@@ -1,1 +1,1 @@
-# cs524
+# cs524 -  Journal
