@@ -15,4 +15,7 @@ Thanks to Kyle for pointing me to sigma.js library for javascript (http://sigmaj
 Oculust Rift is an interesting project, but the main limit of this device is the lack of interaction that the user can have with the scene he is looking at. Thanks to the cooperation between Leap Motion and OR the user can interact more effectively with the rendered scene. It is a pretty innovative combination between two young and new projects. More examples at https://www.leapmotion.com/product/vr.
 
 ![Oculus and Leap Motion](https://di4564baj7skl.cloudfront.net/assets/vr/mount-940-a05ed7984163c49d3809b0d8386e9ed3.gif)
+
+### Brain Browser
+https://github.com/aces/brainbrowser
  
