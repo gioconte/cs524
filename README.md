@@ -7,6 +7,8 @@ The x-toolkit is a interesting JavaScript framework based on WebGl. This framewo
 
 ### Sigma.js
 Thanks to Kyle for pointing me to sigma.js library for javascript (http://sigmajs.org). Thanks to this library it will be very easy to display and represent graphs. Integrating both the 3D visualization with the 2D representation of the graph could be a very interesting idea. 
+
+
 ![Sigmajs](https://linkurio.us/wp-content/uploads/2014/02/sigma.png)
 
 ### Oculus Rift and Leap Motion
