@@ -1,6 +1,14 @@
 # cs524 -  Journal
 See my Connectome project at https://github.com/gioconte/Connectome.
 
+
+### The Neuro Bureau
+Look at this very interesting Brain Competition. Scientists and artists are competing to get the best brain visualization declined into different multimedia means. From the most useful to the most abstract brain images are presented and submitted to the competition.
+![Abstract Brain](http://i2.wp.com/www.neurobureau.org/wp-content/uploads/2014/06/8076bfd98d003d3e912985ed4d536f85171ae60d4b7a53cf005e9cb74c14ca1e4f9fb29deb794012f938c71e1bc9c19a1b4e07e23ec7ccbb091be6a258ecde09.jpg?resize=378%2C251)
+
+![Connectome](http://i0.wp.com/www.neurobureau.org/wp-content/uploads/2014/06/d114d5473f39fc023644dda35a52545e7a0b936e91f1a0535557ef58bb77e8d87761ef33811d1842d97f38ba041189f3f0f67e1a70bd44ce1038a28a69ce876f.png?resize=234%2C175)
+
+
 ### The x-Toolkit
 The x-toolkit is a interesting JavaScript framework based on WebGl. This framework is quite flexible since it allows to load many different standard file formats, specific of neuroimaging area. This framework is a very useful tool for developers, but it is not a ready-to-use application for neuroscientists. A computer scientist team is still needed to obtain the right visualization that could be useful for research. In my opinion, this project is very interesting and it offers the basic building blocks to create a complex and complete visualization. The x-toolkit project could be found at https://github.com/xtk/ . 
 ![Brain rendered using X Toolkit](http://www.webgl.com/wp-content/uploads/2012/03/webgl-x-toolkit-scientific-3.jpg)
