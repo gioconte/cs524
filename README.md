@@ -2,7 +2,7 @@
 See my Connectome project at https://github.com/gioconte/Connectome.
 
 ### Brain Connectome Visualization for Feature Classification
-This poster has been presented in the context for SciVis conference. Unfortunately only a 30 seconds-video is availabe on the web. Still the goal of this project seems to be very close to my Connectome project. From what it is possible to understand from the video, the visualization is in 2D and they use color coding to visualize edges and some of graph-based metrics like nodal strenght or nodal degree. Here is the video: http://vimeo.com/103347058
+This poster has been presented in the context for SciVis 2014 conference. Unfortunately only a 30 seconds-video is availabe on the web. Still the goal of this project seems to be very close to my Connectome project. From what it is possible to understand from the video, the visualization is in 2D and they use color coding to visualize edges and some of graph-based metrics like nodal strenght or nodal degree. Here is the video: http://vimeo.com/103347058
 
 ### The Neuro Bureau
 Look at this very interesting Brain Competition. Scientists and artists are competing to get the best brain visualization declined into different multimedia means. From the most useful to the most abstract brain images are presented and submitted to the competition. More info at http://www.neurobureau.org.
