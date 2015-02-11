@@ -1,5 +1,19 @@
 \begin{thebibliography}{1}
 
+\bibitem{weightedGraphComparison}
+Basak Alper, Benjamin Bach, Nathalie Henry~Riche, Tobias Isenberg, and
+  Jean-Daniel Fekete.
+\newblock Weighted graph comparison techniques for brain connectivity analysis.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 483--492. ACM, 2013.
+
+\bibitem{hierarchicalOrganization}
+Danielle~S Bassett, Edward Bullmore, Beth~A Verchinski, Venkata~S Mattay,
+  Daniel~R Weinberger, and Andreas Meyer-Lindenberg.
+\newblock Hierarchical organization of human cortical networks in health and
+  schizophrenia.
+\newblock {\em The Journal of Neuroscience}, 28(37):9239--9248, 2008.
+
 \bibitem{humanConnectomics}
 Timothy~EJ Behrens and Olaf Sporns.
 \newblock Human connectomics.
