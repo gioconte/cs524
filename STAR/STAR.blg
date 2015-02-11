@@ -5,45 +5,45 @@ The style file: plain.bst
 Database file #1: mybib.bib
 Warning--to sort, need author or key in xToolkit
 Warning--to sort, need author or key in brainBrowser
-You've used 10 entries,
+You've used 11 entries,
             2118 wiz_defined-function locations,
-            571 strings with 6023 characters,
-and the built_in function-call counts, 3760 in all, are:
-= -- 370
-> -- 185
+            578 strings with 6175 characters,
+and the built_in function-call counts, 4102 in all, are:
+= -- 402
+> -- 203
 < -- 2
-+ -- 75
-- -- 64
-* -- 287
-:= -- 601
-add.period$ -- 30
-call.type$ -- 10
-change.case$ -- 62
++ -- 82
+- -- 70
+* -- 316
+:= -- 660
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 68
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 127
-empty$ -- 293
-format.name$ -- 64
-if$ -- 790
+cite$ -- 13
+duplicate$ -- 138
+empty$ -- 319
+format.name$ -- 70
+if$ -- 859
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 8
-newline$ -- 51
-num.names$ -- 16
-pop$ -- 66
+int.to.str$ -- 11
+missing$ -- 9
+newline$ -- 56
+num.names$ -- 18
+pop$ -- 70
 preamble$ -- 1
-purify$ -- 52
+purify$ -- 57
 quote$ -- 0
-skip$ -- 95
+skip$ -- 102
 stack$ -- 0
-substring$ -- 266
-swap$ -- 29
+substring$ -- 289
+swap$ -- 30
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 40
+type$ -- 44
 warning$ -- 2
-while$ -- 32
-width$ -- 12
-write$ -- 106
+while$ -- 35
+width$ -- 13
+write$ -- 117
 (There were 2 warnings)

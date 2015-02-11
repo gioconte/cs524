@@ -28,6 +28,7 @@
 
 \maketitle
 \begin{abstract}
+This abstract would look nicer, if it was already written.
 \end{abstract}
 
 \begin{multicols}{2}
@@ -45,7 +46,7 @@ The paper is structured as follows. In section \ref{sec:domain} there is a more 
 \section{Domain}
 \label{sec:domain}
 
-Human Connectome has been always considered by neuroscientists a very interesting and challenging topic. However, it is only in the last few ten years, when more powerful and more accurate technologies took place firmly in the research area, that more detailed studies have been conducted. Moreover, thanks to new technologies it is now possible to get data from living human subject, that is why they are also addressed as \textit{in vivo} techniques. In fact, thanks to very advanced procedure and algorithms, experts can collect data about the functional and structural connectivity of the brain \textit{in vivo}. As it it reported by Behrend and Sporns in \cite{humanConnectomics}, among all the methodologies there are two main approaches to collect data and they rely on very different principles. On the one hand there is \textit{diffusion tractography} that infers the path of neuronal axons as they go across the brain's white matter by the measure of the water molecules in and around the axons, on the other hand \textit{resting-state functional MRI} measures the fluctuation in the \textit{blood-oxigenation-level-dependent} signal in brain's grey matter regions. More in details, fMRI does not measure directly the connections, but its aim is to find patterns and it expresses connectivity as statical dependencies in the grey matter activity. Although the meanings of the dataset collected are quite different, what the neuroscientists can obtain is a parcelation of the brain into smaller subregions as well as the strength of the connections, whether structural or functional, that link brain's regions. So, going to an higher level of abstraction, the entire Connectome could be seen as a very dense and highly connected graph, where nodes correspond to neural elements (brain's regions) and edges define their interconnections. Rubinov and Sporns in \cite{complexNetworkMeasures} were the first authors that consider the human connectome as a graph and in turns they described and applied many graph-based metrics to the connectome. Since, as aforementioned, the networks obtained are highly dense, the main challenge should be addressed is that task of "creating intuitive, informative and candid images" as it is highlighted by Margulies et al. in \cite{visualizingHumanConnectome}
+The human brain's connectome has been always considered by neuroscientists a very interesting and challenging topic. However, it is only in the last few ten years, when more powerful and more accurate technologies took place firmly in the research area, that more detailed studies have been conducted. Moreover, thanks to new technologies it is now possible to get data from living human subject, that is why they are also addressed as \textit{in vivo} techniques. In fact, thanks to very advanced procedure and algorithms, experts can collect data about the functional and structural connectivity of the brain \textit{in vivo}. As it it reported by Behrend and Sporns in \cite{humanConnectomics}, among all the methodologies there are two main approaches to collect data and they rely on very different principles. On the one hand there is \textit{diffusion tractography} that infers the path of neuronal axons as they go across the brain's white matter by the measure of the water molecules in and around the axons, on the other hand \textit{resting-state functional MRI} measures the fluctuation in the \textit{blood-oxigenation-level-dependent} signal in brain's grey matter regions. More in details, fMRI does not measure directly the connections, but its aim is to find patterns and it expresses connectivity as statical dependencies in the grey matter activity. Although the meanings of the dataset collected are quite different, what the neuroscientists can obtain is a parcelation of the brain into smaller subregions as well as the strength of the connections, whether structural or functional, that link brain's regions. So, going to an higher level of abstraction, the entire Connectome could be seen as a very dense and highly connected graph, where nodes correspond to neural elements (brain's regions) and edges define their interconnections. Rubinov and Sporns in \cite{complexNetworkMeasures} were the first authors that consider the human connectome as a graph and in turns they described and applied many graph-based metrics to the connectome. Since, as aforementioned, the networks obtained are highly dense, the main challenge should be addressed is that task of "creating intuitive, informative and candid images" as it is highlighted by Margulies et al. in \cite{visualizingHumanConnectome}
 
 \section{Main Tasks}
 \label{sec:mainTasks}
@@ -61,8 +62,6 @@ Due to the high complexity of the brain network, \textit{exploration} is the the
 \caption{Images taken from \cite{visualizingHumanConnectome}}
 \label{fig:taxonomy}
 \end{figure*}
-
-
 
 \section{Survey}
 \label{sec:survey}
@@ -88,8 +87,7 @@ Due to the high complexity of the brain network, \textit{exploration} is the the
    			\label{fig:matrix}
 			\includegraphics[width=0.6\columnwidth]{matrix}
 		}
-		
-		
+				
 	\caption{TODO!!!!!!!!!}
 \end{figure*}
 
@@ -98,8 +96,10 @@ Many visualization tools have been presented in the academic literature, but, be
 
 
 
+
+
 \subsection{Still unnamed}
-The Connectome Visualization Utility \cite{connectomeVisualizationUtility} is one of the main tools available in the literature to visualize the human brain connection. To visualize the Connectome the authors propose three different kinds of visualization approaches: 3D brain view, circle view and matrix view.\\
+The Connectome Visualization Utility \cite{connectomeVisualizationUtility} is one of the main tools available in the literature to visualize the human brain connectiontivity. To visualize the Connectome the authors propose three different kinds of visualization approaches: 3D brain view, circle view and matrix view.\\
 In \textbf{3D Brain View} the brain surface is depicted on the screen and nodes are located according to the physical position in the brain itself. The many connections present in the brain are represented as edges in the brain. This view is interactive and it is possible to isolate all the connections that starts from a selected node. Figure \ref{fig:connections} shows this view.
 
 
@@ -127,8 +127,46 @@ The \textbf{Matrix view} represents the entire network using the adjacency matri
 %\end{figure}
 
 In the last two views the order in which the regions are displayed has a relatively big influence on the visualization itself. \\
-An interesting characteristic of these tool is the chance to bind the size of the spheres, which represent the brain regions, to some graph metric such as nodal strength, nodal efficiency. This is a very interesting functionality since experts could understand in a very straightforward way some nodal measure computed on the overall network.\\
-From this paper it is not clear how it is possible to interact with images. In particular, using the 3D Brain view it is not clear if it is possible to navigate and explore the brain in detail. Since all the images reported in the paper are taken from the same perspective, this makes me thing that the interaction with model is quite limited. In the paper it only mentioned that is possible to export small video "which capture user-defined interactive came movements". In my opinion, the interaction with the model should be as easy as possible, since experts want to freely explore the brain connections. 
+An interesting characteristic of these tool is the chance to bind the size of the spheres, which represent the brain regions, to some graph metric such as nodal strength or nodal efficiency. This is a very interesting functionality since experts could understand in a very straightforward way some nodal measure computed on the overall network.\\
+
+%\begin{figure*}[ht]
+%	\centering     
+%	\subfigure[Brain 1]
+%		{
+%			\centering
+%			 \label{fig:brain1}
+%			\includegraphics[width=\columnwidth]{brain1}
+%		}
+%	\subfigure[Brain 2]
+%		{
+%			\centering
+%   			\label{fig:brain2}
+%			\includegraphics[width=\columnwidth]{brain2}
+%
+%		}
+%
+%	\caption{TODO!!!!!!!!!}
+%\end{figure*}
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=1.9\columnwidth]{brain2}}
+\caption{Some screenshots of the working tool. The combination of the three kinds of visualization make the tool very flexible.}
+    \label{fig:brain2}
+\end{figure*}
+
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=1.9\columnwidth]{brain1}}
+\caption{This figure represent the three possible ways in which it is possible to represent the brain Connectome.}
+    \label{fig:brain1}
+\end{figure*}
+
+
+\subsection{TODO: FIND A NAME}
+BrainNet Viewer \cite{brainNetViewer} is a visualization tool for human brain connectomics. This tool provides many visualizations using a ball-and-stick model. So, each visualization is composed by nodes that are representing brain regions and sticks which represent the connections between the regions. Moreover, BraiNet can display also the brain surface. Each combination of these three elements (nodes, edges and surface) can be displayed.\\
+The dimension of the nodes can be linked to some measures performed on the network such nodal strength and nodal efficiency, but it still unclear what the degree of freedom is given to the user. Both structural and functional networks can be visualized thanks to this tool.\\
+The most interesting feature this tool provide, is the possibility to show the brain surface and the connectome at the same time. Another feature that appears in this tool, which is unfrequent in connector visualization tools, is the possibility to color edges according to their distance. Thanks to this, it has been possible to see that in vast majority of the case long connections link homologous regions in two different hemispheres. Figures \ref{fig:brain1} and \ref{fig:brain2} show some screenshots from the working tool.
+
+
+
 
 \subsection{Weighted Graph Comparison}
 \begin{figure*}[ht]
@@ -137,10 +175,13 @@ From this paper it is not clear how it is possible to interact with images. In p
 \caption{Images taken from \cite{weightedGraphComparison}}
 \label{fig:weightedGraph}
 \end{figure*}
+
 In 2013, a very intriguing study has been introduced by Alper et al. in \cite{weightedGraphComparison}. The problem they addressed was about to find the right visualization when comparing weighted graphs. Although this is a wide issue related to graph drawing in general, the authors focus their attention on the graphs derived from the connectome studies. To achieve the goal briefly described before, the authors proposed two main techniques and they are as follows: matrix diagram or node-link diagram. With the matrix diagram in each cell it is represent the weight of the link using a brightness encoding. Figure \ref{fig:weightedGraph} shows better than words the prototypes proposed by the team. The other methodology is the node-link diagram in which all the edges are drawn. If an edge is present in both of the adjacency matrices, there are two edges as well and the higher weight has a bright color. When just one edge is drawn, it simply means that connections is missing in one of the two graphs.
 The paper reports also a very strong validation process that involved 11 participants. They measured many different metrics and the results are quite interesting. Conversely to what people may think, the matrix diagrams revealed to be more effective than node-link diagrams are. That is a very important and novel result, since it is the first comparison tool I have seen in the literature and the result is not intuitive. It would be interesting to go further in this study and try to have a study with more participants.\\
 The most impressive design decision is that a 3D visualization has been excluded a priori since the authors claim that "the clutter and complexity of the visual encoding in these spatial/volumetric representations makes it difficult to perform accurate weighted edge comparison tasks." Moreover, writers state that the vast majority of neuroscientific task can be fulfilled using a 2D representation and that the third dimension could be misleading in the interpretation. This is a quite strong statement and follows the idea Tamara Munzner have about the third dimension presented in \cite{processAndPitfalls}. She claimed that the third dimension should be strongly motivated, because it is not true that having three dimensions is always better than having just two of them. Although as I was saying the paper present a  strong validation process, it is not clear why the authors decided to use just synthetic data even if connectome data are easily available.
 
+\subsection{Tractography}
+I think tractography deserves a small review and an its own subsection. Although could be out of the scope of my project, I should write something. READ PAPERS ABOUT!
 
 \section{Future Works and New Trends}
 \label{sec:futureWorks}

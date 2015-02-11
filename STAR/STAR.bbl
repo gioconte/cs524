@@ -59,4 +59,10 @@ Ernesto~J Sanz-Arigita, Menno~M Schoonheim, Jessica~S Damoiseaux, Serge~ARB
   analysis of fmri resting-state functional connectivity.
 \newblock {\em PloS one}, 5(11):e13788, 2010.
 
+\bibitem{brainNetViewer}
+Mingrui Xia, Jinhui Wang, and Yong He.
+\newblock Brainnet viewer: a network visualization tool for human brain
+  connectomics.
+\newblock {\em PloS one}, 8(7):e68910, 2013.
+
 \end{thebibliography}
