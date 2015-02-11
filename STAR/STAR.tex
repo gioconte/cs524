@@ -17,10 +17,10 @@
 
 
 
-\title{Human Connectome: visualization techniques and methodologies}
+\title{Human Connectome: Visualization Techniques and Methodologies}
 \author{Giorgio Conte}
 %\date{December, $11^{th}$ 2014}
-\affil{Creative Coding Lab\\ Department of Computer Science\\University of Illinois at Chicago}
+\affil{Creative Coding Research Group\\ Department of Computer Science\\University of Illinois at Chicago}
 
 
 
@@ -42,17 +42,18 @@ The aim of this work is to report and survey the visualizations tools already pr
 The paper is structured as follows. In section there is a more detailed introduction about the human connectome. Then, a detailed list of common tasks follows, while in section NUMERO I describe accurately the most interesting tool. In section ... to be continued.
 %-------------------------------------------------------------------------
 \section{Domain}
-Human Connectome has been always considered by neuroscientists a very interesting and challenging topic. However, it is only in the last few years, when more powerful and more accurate technologies took place firmly in the research area, that more detailed studies have been conducted. In fact, thanks to very advanced techniques and algorithms, it is now possible to collect data about the functional, structural and anatomical connectivity of the brain. Then, the starting points of this investigation are the data collected from fMRI and diffusion MRI. What the neuroscientists can obtain is a parcellation of the brain into smaller subregions as well as the strength of the connections, whether structural or functional, between the regions. So, the entire Connectome could be reduced to a very dense and highly connected graph. Rubinov and Sporns in \cite{complexNetworkMeasures} were the first authors that consider the human connector as a graph and in turns they described many graph-based metrics applied to the connectome.  Since as aforementioned the networks represented are highly dense, the main challenge should be addressed is that task of "creating intuitive, informative and candid images" highlighted by Margulies et al. in \cite{visualizingHumanConnectome}
+Human Connectome has been always considered by neuroscientists a very interesting and challenging topic. However, it is only in the last few ten years, when more powerful and more accurate technologies took place firmly in the research area, that more detailed studies have been conducted. Moreover, thanks to new technologies it is now possible to get data from living human subject, that is why they are also addressed as \textit{in vivo} techniques. In fact, thanks to very advanced procedure and algorithms, experts can collect data about the functional and structural connectivity of the brain \textit{in vivo}. As it it reported by Behrend and Sporns in \cite{humanConnectomics}, among all the methodologies there are two main approaches to collect data and they rely on very different principles. On the one hand there is \textit{diffusion tractography} that infers the path of neuronal axons as they go across the brain's white matter by the measure of the water molecules in and around the axons, on the other hand \textit{resting-state functional MRI} measures the fluctuation in the \textit{blood-oxigenation-level-dependent} signal in brain's grey matter regions. More in details, fMRI does not measure directly the connections, but its aim is to find patterns and it expresses connectivity as statical dependencies in the grey matter activity. Although the meanings of the dataset collected are quite different, what the neuroscientists can obtain is a parcellation of the brain into smaller subregions as well as the strength of the connections, whether structural or functional, that link brain's regions. So, going to an higher level of abstraction, the entire Connectome could be seen as a very dense and highly connected graph, where nodes correspond to neural elements (brain's regions) and edges define their interconnections. Rubinov and Sporns in \cite{complexNetworkMeasures} were the first authors that consider the human connectome as a graph and in turns they described and applied many graph-based metrics to the connectome. Since, as aforementioned, the networks obtained are highly dense, the main challenge should be addressed is that task of "creating intuitive, informative and candid images" as it is highlighted by Margulies et al. in \cite{visualizingHumanConnectome}
 
 \section{Main Tasks}
-One of the worse mistake that can be done when designing a visual analytics tool is the willingness of addressing a spread set of tasks. So that is why is important to clearly understand and then state what the main tasks in a given research area are. This activity it is not as simple as it might seem at a first glance. So, that is why in this section I am trying to describe as much clear as possible the main goals that neuroscientist would achieve using a human connectome visualization tool.\\
-Due to the high complexity of the brain network, \textit{exploration} is the the most important task. Although some of readers may argue that the exploration task is too simple, pretty obvious and too general, in my opinion, it is not so. In fact, especially when the field is quite novel and with many uncleared aspects, as it is the one we are talking about, it is extremely relevant to allow user a visualization flexibility. Flexibility in terms of level of abstraction, 
+One of the worse mistake that can be done when designing a visual analytics tool is the willingness of addressing a spread set of tasks. So that is why is important to clearly understand and then state what the main tasks in a given research area are. This activity it is not as simple as it might seem at a first glance. So, in this section I am trying to describe as much clear as possible the main goals that neuroscientist would achieve using a human connectome visualization tool.\\
+Due to the high complexity of the brain network, \textit{exploration} is the the most important task. Although some readers may argue that the exploration task is too simple, pretty obvious and too general, in my opinion, it is not so. In fact, especially when the field is quite novel and with many uncleared aspects, as it is the one we are talking about, it is extremely relevant to allow to user a visualization \textit{flexibility}. Flexibility should be achieved in terms of level of abstraction, perspective and data that can be visualized. \\
+\textit{Comparison} is the other task that should be achieved by a visual analytics tool. For example, neuroscientists are usually interested in comparing healthy and diseased subjects, so that it is possible to understand if there are different connectivity patterns in the brain network, which connections are missing and which are still active. 
 
-
+\section{Survey}
 \section{Visualization Tools}
 Many visualization tools have been presented in the literature. Before describing them more in details I want to report the interesting taxonomy introduced by Marguilies et al in \cite{visualizingHumanConnectome}. In fact, they identified three main categories 
 
-\section{Future Works and new trends}
+\section{Future Works and New Trends}
 
 
 \bibliography{mybib}{}
