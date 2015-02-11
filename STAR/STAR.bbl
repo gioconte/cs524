@@ -1,14 +1,15 @@
-\begin{thebibliography}{\uppercase{MBWG13}}
+\begin{thebibliography}{1}
 
-\bibitem[MBWG13]{visualizingHumanConnectome}
-\textsc{Margulies D.~S., B{\"o}ttger J., Watanabe A., Gorgolewski K.~J.}:
+\bibitem{visualizingHumanConnectome}
+Daniel~S Margulies, Joachim B{\"o}ttger, Aimi Watanabe, and Krzysztof~J
+  Gorgolewski.
 \newblock Visualizing the human connectome.
-\newblock \emph{NeuroImage 80} (2013), 445--461.
+\newblock {\em NeuroImage}, 80:445--461, 2013.
 
-\bibitem[RS10]{complexNetworkMeasures}
-\textsc{Rubinov M., Sporns O.}:
+\bibitem{complexNetworkMeasures}
+Mikail Rubinov and Olaf Sporns.
 \newblock Complex network measures of brain connectivity: uses and
   interpretations.
-\newblock \emph{Neuroimage 52}, 3 (2010), 1059--1069.
+\newblock {\em Neuroimage}, 52(3):1059--1069, 2010.
 
 \end{thebibliography}
