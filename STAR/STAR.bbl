@@ -1,5 +1,9 @@
 \begin{thebibliography}{1}
 
+\bibitem{xToolkit}
+X toolkit.
+\newblock \url{https://github.com/xtk/X}.
+
 \bibitem{weightedGraphComparison}
 Basak Alper, Benjamin Bach, Nathalie Henry~Riche, Tobias Isenberg, and
   Jean-Daniel Fekete.
@@ -25,10 +29,24 @@ Daniel~S Margulies, Joachim B{\"o}ttger, Aimi Watanabe, and Krzysztof~J
 \newblock Visualizing the human connectome.
 \newblock {\em NeuroImage}, 80:445--461, 2013.
 
+\bibitem{processAndPitfalls}
+Tamara Munzner.
+\newblock Process and pitfalls in writing information visualization research
+  papers.
+\newblock In {\em Information visualization}, pages 134--153. Springer, 2008.
+
 \bibitem{complexNetworkMeasures}
 Mikail Rubinov and Olaf Sporns.
 \newblock Complex network measures of brain connectivity: uses and
   interpretations.
 \newblock {\em Neuroimage}, 52(3):1059--1069, 2010.
+
+\bibitem{alzheimer}
+Ernesto~J Sanz-Arigita, Menno~M Schoonheim, Jessica~S Damoiseaux, Serge~ARB
+  Rombouts, Erik Maris, Frederik Barkhof, Philip Scheltens, and Cornelis~J
+  Stam.
+\newblock Loss of ‘small-world’networks in alzheimer's disease: graph
+  analysis of fmri resting-state functional connectivity.
+\newblock {\em PloS one}, 5(11):e13788, 2010.
 
 \end{thebibliography}
