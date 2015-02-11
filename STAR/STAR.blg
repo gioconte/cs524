@@ -4,45 +4,46 @@ The top-level auxiliary file: STAR.aux
 The style file: plain.bst
 Database file #1: mybib.bib
 Warning--to sort, need author or key in xToolkit
-You've used 8 entries,
+Warning--to sort, need author or key in brainBrowser
+You've used 10 entries,
             2118 wiz_defined-function locations,
-            558 strings with 5698 characters,
-and the built_in function-call counts, 3213 in all, are:
-= -- 320
-> -- 161
+            571 strings with 6023 characters,
+and the built_in function-call counts, 3760 in all, are:
+= -- 370
+> -- 185
 < -- 2
-+ -- 64
-- -- 56
-* -- 246
-:= -- 516
-add.period$ -- 25
-call.type$ -- 8
-change.case$ -- 52
++ -- 75
+- -- 64
+* -- 287
+:= -- 601
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 62
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 109
-empty$ -- 243
-format.name$ -- 56
-if$ -- 674
+cite$ -- 12
+duplicate$ -- 127
+empty$ -- 293
+format.name$ -- 64
+if$ -- 790
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 7
-newline$ -- 42
-num.names$ -- 14
-pop$ -- 53
+int.to.str$ -- 10
+missing$ -- 8
+newline$ -- 51
+num.names$ -- 16
+pop$ -- 66
 preamble$ -- 1
-purify$ -- 44
+purify$ -- 52
 quote$ -- 0
-skip$ -- 81
+skip$ -- 95
 stack$ -- 0
-substring$ -- 234
-swap$ -- 27
+substring$ -- 266
+swap$ -- 29
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
-warning$ -- 1
-while$ -- 29
-width$ -- 9
-write$ -- 88
-(There was 1 warning)
+type$ -- 40
+warning$ -- 2
+while$ -- 32
+width$ -- 12
+write$ -- 106
+(There were 2 warnings)

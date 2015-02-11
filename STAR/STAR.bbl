@@ -1,4 +1,8 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{brainBrowser}
+Brain browser.
+\newblock \url{https://brainbrowser.cbrain.mcgill.ca/}.
 
 \bibitem{xToolkit}
 X toolkit.
@@ -22,6 +26,12 @@ Danielle~S Bassett, Edward Bullmore, Beth~A Verchinski, Venkata~S Mattay,
 Timothy~EJ Behrens and Olaf Sporns.
 \newblock Human connectomics.
 \newblock {\em Current opinion in neurobiology}, 22(1):144--153, 2012.
+
+\bibitem{connectomeVisualizationUtility}
+Roan~A. LaPlante, Linda Douw, Wei Tang, and Steven~M. Stufflebeam.
+\newblock The connectome visualization utility: Software for visualization of
+  human brain networks.
+\newblock {\em PLoS ONE}, 9(12):e113838, 12 2014.
 
 \bibitem{visualizingHumanConnectome}
 Daniel~S Margulies, Joachim B{\"o}ttger, Aimi Watanabe, and Krzysztof~J

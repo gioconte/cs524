@@ -34,24 +34,27 @@
 \raggedcolumns
 
 \section{Introduction}
+\label{sec:introduction}
 
 Being able to deeply understand how the brain is connected is one of the main challenges in the last years among neuroscientists. With the advent and the refinement of new technologies like fMRi and diffusion MRI, doctors are able to collect and derive data about how the regions of the brain are connected. Very frequently the map of brain's neural connections is addressed as CONNECTOME.
 Visualizing these data in an effective way would allow people to navigate and explore all the wired connections that are in the brain. Moreover, thanks to this kind of visualizations is possible to understand better what differences there are between healthy subjects and other people who suffer from a wide range of neuropsychiatric illnesses like bipolar, body dysmorphic disorder, schizophrenia, Alzheimer's disease and late-life depression. 
 Many visualization tools have been proposed in the academic literature, however the vast majority of them perform 2D visualizations. However, since this research field is quite novel, there is still room for improvement.
 The aim of this work is to report and survey the visualizations tools already present in the academic literature as well as to outline which the new trends for the near future are.\\
-The paper is structured as follows. FIXXXX: In section there is a more detailed introduction about the human connectome. Then, a detailed list of common tasks follows, while in section NUMERO I describe accurately the most interesting tool. In section ... to be continued.
+The paper is structured as follows. In section \ref{sec:domain} there is a more detailed introduction about the human Connectome. Then, a detailed list of common tasks is presented in section \ref{sec:mainTasks}, while in section \ref{sec:survey} I describe accurately the most interesting tools already present in the literature. In section \ref{sec:futureWorks} future works and some possibly newer trends are reported. Finally, in section \ref{sec:conclusions} some conclusions are drawn.
 %-------------------------------------------------------------------------
 \section{Domain}
+\label{sec:domain}
+
 Human Connectome has been always considered by neuroscientists a very interesting and challenging topic. However, it is only in the last few ten years, when more powerful and more accurate technologies took place firmly in the research area, that more detailed studies have been conducted. Moreover, thanks to new technologies it is now possible to get data from living human subject, that is why they are also addressed as \textit{in vivo} techniques. In fact, thanks to very advanced procedure and algorithms, experts can collect data about the functional and structural connectivity of the brain \textit{in vivo}. As it it reported by Behrend and Sporns in \cite{humanConnectomics}, among all the methodologies there are two main approaches to collect data and they rely on very different principles. On the one hand there is \textit{diffusion tractography} that infers the path of neuronal axons as they go across the brain's white matter by the measure of the water molecules in and around the axons, on the other hand \textit{resting-state functional MRI} measures the fluctuation in the \textit{blood-oxigenation-level-dependent} signal in brain's grey matter regions. More in details, fMRI does not measure directly the connections, but its aim is to find patterns and it expresses connectivity as statical dependencies in the grey matter activity. Although the meanings of the dataset collected are quite different, what the neuroscientists can obtain is a parcelation of the brain into smaller subregions as well as the strength of the connections, whether structural or functional, that link brain's regions. So, going to an higher level of abstraction, the entire Connectome could be seen as a very dense and highly connected graph, where nodes correspond to neural elements (brain's regions) and edges define their interconnections. Rubinov and Sporns in \cite{complexNetworkMeasures} were the first authors that consider the human connectome as a graph and in turns they described and applied many graph-based metrics to the connectome. Since, as aforementioned, the networks obtained are highly dense, the main challenge should be addressed is that task of "creating intuitive, informative and candid images" as it is highlighted by Margulies et al. in \cite{visualizingHumanConnectome}
 
 \section{Main Tasks}
+\label{sec:mainTasks}
 One of the worse mistake that can be done when designing a visual analytics tool is the willingness of addressing a spread set of tasks. So that is why is important to clearly understand and then state what the main tasks in a given research area are. This activity it is not as simple as it might seem at a first glance. So, in this section I am trying to describe as much clear as possible the main goals that neuroscientist would achieve using a human connectome visualization tool.\\
 
 Due to the high complexity of the brain network, \textit{exploration} is the the most important task. Although some readers may argue that the exploration task is too simple, pretty obvious and too general, in my opinion, it is not so. In fact, especially when the field is quite novel and with many uncleared aspects, as it is the one we are talking about, it is extremely relevant to allow to user a \textit{visualization flexibility}. Flexibility should be achieved in terms of level of abstraction, perspective and data that can be visualized. \\
 
 \textit{Comparison} is the other task that should be achieved by a visual analytics tool. For example, neuroscientists are usually interested in comparing healthy and diseased subjects, so that it is possible to understand if there are different connectivity patterns in the brain network, which connections are missing and which are still active. For example, in studies like the one proposed by Bassett et al. in \cite{hierarchicalOrganization} shows there are topological and connectivity differences in schizophrenic patients with respect to healthy subjects. Other works like \cite{alzheimer} have shown that in Alzheimer's disease, some functional connectivity properties of healthy people are not present in diseased patients . So, having an easy-to-use visualization tool could accelerate this process and could hopefully allow more interesting discoveries.
 
-\section{Survey}
 \begin{figure*}[ht]
 \centering
 \includegraphics[width = 1.8\columnwidth]{taxonomy}
@@ -59,7 +62,73 @@ Due to the high complexity of the brain network, \textit{exploration} is the the
 \label{fig:taxonomy}
 \end{figure*}
 
-Many visualization tools have been presented in the academic literature, but ,before describing more in details, I would like to report the interesting taxonomy presented in \cite{visualizingHumanConnectome} by Margulies et al. In fact, they identified three main categories of visualization methodologies for the human Connectome and they are as follows: \textit{functional}, \textit{anatomical} and \textit{connectional}. The reasons beyond this taxonomy and its meaning are quite straightforward, especially if we also remind what has been stated in the last paragraph about the main tasks. In fact, visualization tools are clustered according to the common task they would like to face. Figure \ref{fig:taxonomy} gives a clearer overview of the cited taxonomy. 
+
+
+\section{Survey}
+\label{sec:survey}
+
+\begin{figure*}[ht]
+	\centering     
+	\subfigure[3D Brain View]
+		{
+			\centering
+			 \label{fig:connections}
+			\includegraphics[width=0.6\columnwidth]{connections}
+		}
+	\subfigure[Circle View]
+		{
+			\centering
+   			\label{fig:circle}
+			\includegraphics[width=0.6\columnwidth]{circle}
+
+		}
+	\subfigure[MAtrix View]
+		{
+			\centering
+   			\label{fig:matrix}
+			\includegraphics[width=0.6\columnwidth]{matrix}
+		}
+		
+		
+	\caption{TODO!!!!!!!!!}
+\end{figure*}
+
+Many visualization tools have been presented in the academic literature, but, before describing them more in details, I would like to report the interesting taxonomy presented in \cite{visualizingHumanConnectome} by Margulies et al. In fact, they identified three main categories of visualization methodologies for the human Connectome and they are as follows: \textit{functional}, \textit{anatomical} and \textit{connectional}. The reasons beyond this taxonomy and its meaning are quite straightforward, especially if we also remind what has been stated in the last paragraph about the main tasks. In fact, visualization tools are clustered according to the common task they would like to face. Figure \ref{fig:taxonomy} gives a clearer overview of the cited taxonomy. 
+
+
+
+
+\subsection{Still unnamed}
+The Connectome Visualization Utility \cite{connectomeVisualizationUtility} is one of the main tools available in the literature to visualize the human brain connection. To visualize the Connectome the authors propose three different kinds of visualization approaches: 3D brain view, circle view and matrix view.\\
+In \textbf{3D Brain View} the brain surface is depicted on the screen and nodes are located according to the physical position in the brain itself. The many connections present in the brain are represented as edges in the brain. This view is interactive and it is possible to isolate all the connections that starts from a selected node. Figure \ref{fig:connections} shows this view.
+
+
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=0.9\columnwidth]{connections}
+%\caption{3D Brain View.}
+%    \label{fig:connections}
+%\end{figure}
+
+With \textbf{Circle view} all the regions are displayed along a circle. The connection between all the nodes are represented as edges that go from region to another inside the circle. There are two ways of organising the position of the regions. In fact, it is possible to order them according to their names (alphabetically) or according to the real position in the brain as it is shown in figure \ref{fig:circle}.
+
+%\begin{figure}[H]
+%\centerline{\includegraphics[width=0.9\columnwidth]{circle}}
+%\caption{Circle View.}
+%    \label{fig:circle}
+%\end{figure}
+
+The \textbf{Matrix view} represents the entire network using the adjacency matrix. Nodes are positioned along the sides of a square matrix. Using colors each cell represent how strong the connection between two nodes is. Still in this view, it is possible to order the nodes alphabetically by their names or by the anatomy. Figure \ref{fig:matrix} shows this kind of view.\\
+
+%\begin{figure}[H]
+%\centerline{\includegraphics[width=0.9\columnwidth]{matrix}}
+%\caption{Matrix View.}
+%    \label{fig:matrix}
+%\end{figure}
+
+In the last two views the order in which the regions are displayed has a relatively big influence on the visualization itself. \\
+An interesting characteristic of these tool is the chance to bind the size of the spheres, which represent the brain regions, to some graph metric such as nodal strength, nodal efficiency. This is a very interesting functionality since experts could understand in a very straightforward way some nodal measure computed on the overall network.\\
+From this paper it is not clear how it is possible to interact with images. In particular, using the 3D Brain view it is not clear if it is possible to navigate and explore the brain in detail. Since all the images reported in the paper are taken from the same perspective, this makes me thing that the interaction with model is quite limited. In the paper it only mentioned that is possible to export small video "which capture user-defined interactive came movements". In my opinion, the interaction with the model should be as easy as possible, since experts want to freely explore the brain connections. 
 
 \subsection{Weighted Graph Comparison}
 \begin{figure*}[ht]
@@ -74,8 +143,13 @@ The most impressive design decision is that a 3D visualization has been excluded
 
 
 \section{Future Works and New Trends}
-Although all the methodologies proposed are quite interesting and the results obtained are usable and useful for experts in the field, still all of these visual analytics tools are affected by a lack of portability between systems. The applications use, as we have seen before, a variety of languages that go from Matlab to Python, so they can be considered \textit{stand-alone} and \textit{local} applications. However, in the last years the clear trend in computer science is to move all the services to the web. There are many reasons why we are witnessing this process. Among them I would like to remind the flexibility, cross-platform native feature and, not least, the higher and higher computational power that browser can support. This field is shyly moving towards this kind of technology and web-based technology too. To this regard, the javascript library x toolkit \cite{xToolkit}.  X Toolkit is a library its aim is to allow Javascript web-based visualization tools, it claims to be a "lightweight and fast" webGL library for scientific visualization. 
+\label{sec:futureWorks}
+Although all the methodologies proposed are quite interesting and the results may have a very positive impact on experts exploraration, still all of these visual analytic tools are affected by a lack of portability between platforms and the methods used are not usually described in a replicable manner. The applications have been written, as we have seen before, with a variety of languages that go from Matlab to Python, so they can be considered \textit{stand-alone} and \textit{local} applications. However, in the last few years the clear trend in computer science is to move all the services to the web. There are many reasons why we are witnessing this process. Among them I would like to remind the flexibility, cross-platform native feature and, not least, the higher and higher computational power that newer browser can support. This field is also shyly moving towards this kind of technology and web-based technology. To this regard, the javascript library x toolkit \cite{xToolkit} has been created to drive this natural flow. X Toolkit is a library its aim is to allow Javascript web-based visualization tools, it claims to be a "lightweight and fast" webGL framework for scientific visualization. Apart from wrapping many openGL functions, the main contribution offered by this library is possibility to read and load standard neuroscience file extensions. On the top of this framework, tools like Brain Browser \cite{brainBrowser} have been created. \\
 
+At the same time, the human connector visualization is moving from 2D to a 3D space. However, there are no well-defined examples or complete applications that uses these techniques. In fact, the tool I have introduced before not only are changing the technology, but also are trying to use the potentiality of 3D to render in a more effective way human brain Connectome. Those are still primitive and the interaction is still limited and, at the moment, can not be compared to more established and complex like the one described in section \ref{sec:survey}.
+
+\section{Conclusions}
+\label{sec:conclusions}
 \bibliography{mybib}{}
 \bibliographystyle{plain}  
 
