@@ -3,7 +3,7 @@ See my Connectome project at https://github.com/gioconte/Connectome.
 
 
 ### The Neuro Bureau
-Look at this very interesting Brain Competition. Scientists and artists are competing to get the best brain visualization declined into different multimedia means. From the most useful to the most abstract brain images are presented and submitted to the competition.
+Look at this very interesting Brain Competition. Scientists and artists are competing to get the best brain visualization declined into different multimedia means. From the most useful to the most abstract brain images are presented and submitted to the competition. More info at http://www.neurobureau.org.
 
 ![Abstract Brain](http://i2.wp.com/www.neurobureau.org/wp-content/uploads/2014/06/8076bfd98d003d3e912985ed4d536f85171ae60d4b7a53cf005e9cb74c14ca1e4f9fb29deb794012f938c71e1bc9c19a1b4e07e23ec7ccbb091be6a258ecde09.jpg?resize=378%2C251)
 
