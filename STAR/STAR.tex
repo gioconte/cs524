@@ -17,7 +17,7 @@
 
 
 
-\title{Human Connectome: Visualization Techniques and Methodologies}
+\title{Human Connectomics: Visualization Techniques and Methodologies}
 \author{Giorgio Conte}
 %\date{December, $11^{th}$ 2014}
 \affil{Creative Coding Research Group\\ Department of Computer Science\\University of Illinois at Chicago}
@@ -28,7 +28,7 @@
 
 \maketitle
 \begin{abstract}
-This abstract would look nicer, if it was already written.
+Research in understanding how brain's regions are connected between them is recently becoming more and more popular. Thanks to the advances in non-invasive neuroimaging technologies, such as functional Magnetic Resonance Imaging (fMRI) and Diffusion Tensor Imaging (DTI), large dataset can also be collected from living subjects. Thus, the need of visual analytic tools able to deal with this data is becoming a priority for neuroscientists. This work aims at surveying the main visualization techniques and methodologies already present in the academic literature as well as the new trends are taking place in this field. The main phenomena we are witnessing is a transition from stand-alone, local 2D visualization tools to more flexible and crossplatforms web-based applications which exploit 3D rendering.
 \end{abstract}
 
 \begin{multicols}{2}
@@ -37,12 +37,14 @@ This abstract would look nicer, if it was already written.
 \section{Introduction}
 \label{sec:introduction}
 
-Being able to deeply understand how the brain is connected is one of the main challenges in the last years among neuroscientists. With the advent and the refinement of new technologies like \textit{functional Magnetic Resonance Imaging} (fMRI) and \textit{diffusion MRI}, doctors are able to collect and derive data about how the regions of the brain are connected. Very frequently the map of neural connections is addressed as CONNECTOME.\\
+Being able to deeply understand how the brain is connected is one of the main challenges in the last years among neuroscientists. With the advent and the refinement of new technologies like \textit{functional Magnetic Resonance Imaging} (fMRI) and \textit{Diffusion Tensor Imaging}, also addressed as \textit{diffusion Magnetic Resonance Imaging} (diffusion MRI), doctors are able to collect and derive data about how the regions of the brain are connected. Very frequently the map of neural connections is addressed as CONNECTOME.\\
 Visualizing these data in an effective way would allow people to navigate and explore all the wired connections that are in the brain. Moreover, thanks to this kind of visualizations is possible to understand better what differences there are between healthy subjects and other people who suffer from a wide range of neuropsychiatric illnesses like bipolar, body dysmorphic disorder, schizophrenia, Alzheimer's disease and late-life depression. \\
 Many visualization tools have been proposed in the academic literature, however the vast majority of them perform 2D visualizations and, since this research field is quite novel, there is still room for improvement.
 The aim of this work is to report and survey the visualizations tools already present in the academic literature as well as to outline which the new trends for the near future are.\\
 The paper is structured as follows. In section \ref{sec:domain} there is a more detailed introduction about the human Connectome. Then, a detailed list of common tasks is presented in section \ref{sec:mainTasks}, while in section \ref{sec:survey} I describe accurately the most interesting tools already present in the literature. In section \ref{sec:futureWorks} future works and some possibly newer trends are reported. Finally, in section \ref{sec:conclusions} some conclusions are drawn.
+
 %-------------------------------------------------------------------------
+
 \section{Domain}
 \label{sec:domain}
 
@@ -82,7 +84,7 @@ Due to the high complexity of the brain network, \textit{exploration} is the the
 			\includegraphics[width=0.6\columnwidth]{circle}
 
 		}
-	\subfigure[MAtrix View]
+	\subfigure[Matrix View]
 		{
 			\centering
    			\label{fig:matrix}
@@ -179,23 +181,25 @@ The most interesting feature this tool provide is the possibility to show the br
 
 In 2013, a very intriguing study has been introduced by Alper et al. in \cite{weightedGraphComparison}. The problem they addressed was about to find the right visualization when comparing weighted graphs. Although this is a wide issue related to graph drawing in general, the authors focus their attention on the graphs derived from the connectome studies. To achieve the goal briefly described before, the authors proposed two main techniques and they are as follows: matrix diagram or node-link diagram. With the matrix diagram in each cell it is represent the weight of the link using a brightness encoding. Figure \ref{fig:weightedGraph} shows better than words the prototypes proposed by the team. The other methodology is the node-link diagram in which all the edges are drawn. If an edge is present in both of the adjacency matrices, there are two edges as well and the higher weight has a bright color. When just one edge is drawn, it simply means that connections is missing in one of the two graphs.
 The paper reports also a very strong validation process that involved 11 participants. They measured many different metrics and the results are quite interesting. Conversely to what people may think, the matrix diagrams revealed to be more effective than node-link diagrams are. That is a very important and novel result, since it is the first comparison tool I have seen in the literature and the result is not intuitive. It would be interesting to go further in this study and try to have a study with more participants.\\
-The most impressive design decision is that a 3D visualization has been excluded a priori since the authors claim that "the clutter and complexity of the visual encoding in these spatial/volumetric representations makes it difficult to perform accurate weighted edge comparison tasks." Moreover, writers state that the vast majority of neuroscientific task can be fulfilled using a 2D representation and that the third dimension could be misleading in the interpretation. This is a quite strong statement and follows the idea Tamara Munzner have about the third dimension presented in \cite{processAndPitfalls}. She claimed that the third dimension should be strongly motivated, because it is not true that having three dimensions is always better than having just two of them. Although as I was saying the paper present a  strong validation process, it is not clear why the authors decided to use just synthetic data even if connectome data are easily available.
+The most impressive design decision is that a 3D visualization has been excluded a priori since the authors claim that "the clutter and complexity of the visual encoding in these spatial/volumetric representations makes it difficult to perform accurate weighted edge comparison tasks." Moreover, writers state that the vast majority of neuroscientific task can be fulfilled using a 2D representation and that the third dimension could be misleading in the interpretation. This is a quite strong statement and follows the idea Tamara Munzner have about the third dimension presented in \cite{processAndPitfalls}. She claimed that the third dimension should be strongly motivated, because it is not true that having three dimensions is always better than having just two of them. Although the paper presents a strong validation process, it is not clear why the authors decided to use just synthetic data instead of real one, even if connectome data are easily available.
 
 \subsection{Tractography}
-Tractography is a technique to represent data collected from diffusion MRI, also addressed as Diffusion Tensor Imaging (DTI). DTI dataset contains measure about the motion of water molecules in brain tissues. Since the brain white matter is a fibrous structure, water molecules diffuse more in the directions along the fibers rather than on the perpendicular dimension. This kind of movement is called \textit{anisotropic}, in contrast with the \textit{isotropic} diffusion of water molecules when they can freely move in the space. Thanks to this anisotropic movement it is possible to reconstruct the fiber presence and orientation. Then, using tractography is one of the most common way to go back to these informations. This reverse process is quite hard also because DTI dataset are multidimensional. In fact, when performing DTI it is possible only to see that good diffusion exists along the direction in which a gradient is applied. So if we want to know the diffusion in all directions, we should get many diffusion weighted images with gradients in different directions. In principle, ?all directions? would mean every possible direction on a sphere, but in practice 12, 16, or 32 gradient directions (or more) are considered. DTI dates contains by design some uncertainty, just because it is not possible to scan all the possible directions in a 3D space. However, considering all this unreliability would make a visualization quite hard. The need of a representation makes the researcher coin the word \textit{deterministic tractography}. Researcher just cleared any ambiguity by describing a concrete tract \cite{conturo1999tracking}, \cite{mori1999three}. 
+Tractography is a technique to represent data collected from diffusion MRI, also addressed as Diffusion Tensor Imaging (DTI). DTI dataset contains measure about the motion of water molecules in brain tissues. Since the brain white matter is a fibrous structure, water molecules diffuse more in the directions along the fibers rather than on the perpendicular dimension. This kind of movement is called \textit{anisotropic}, in contrast with the \textit{isotropic} diffusion of water molecules when they can freely move in the space. Thanks to this anisotropic movement it is possible to reconstruct the fiber presence and orientation. Then, using tractography is one of the most common way to go back to these informations. This reverse process is quite hard also because DTI dataset are multidimensional. In fact, when performing DTI it is possible only to see that good diffusion exists along the direction in which a gradient is applied. So if we want to know the diffusion in all directions, we should get many diffusion weighted images with gradients in different directions. In principle, ?all directions? would mean every possible direction on a sphere, but in practice 12, 16, or 32 gradient directions (or more) are considered. DTI data contains by design some uncertainty, just because it is not possible to scan all the possible directions in a 3D space. However, considering all this unreliability would make a visualization quite hard. The need of a representation makes the researcher coin the word \textit{deterministic tractography}. Researcher just cleared any ambiguity by describing connections with a concrete tract \cite{conturo1999tracking}, \cite{mori1999three}. 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width = 0.9\columnwidth]{hairLike}
+\includegraphics[width = 0.8\columnwidth]{hairLike}
 \caption{The hair-like structures tractography proposed by Peeters et al. in \cite{peeters2006visualization}}
 \label{fig:weightedGraph}
 \end{figure}
 
-On this trend, more recently with the emergence of computer graphics, new advanced methodologies came out. So, tracts have been represented with \textit{tuboids}\cite{petrovic2007visualizing}, \textit{hair-like structures} \cite{peeters2006visualization} and \textit{stylized line primitives} \cite{stoll2005visualization}. In 2012, a work proposed by Congote et al. proposed a web-based application to render tractography \cite{congote2012real} with a real-time volume rendering technique.
+More recently with the emergence of computer graphics, new advanced methodologies following the same trend aforementioned came out. So, tracts have been represented with \textit{tuboids}\cite{petrovic2007visualizing}, \textit{hair-like structures} \cite{peeters2006visualization} and \textit{stylized line primitives} \cite{stoll2005visualization}. In 2012, a work written by Congote et al. proposed a web-based application to render tractography \cite{congote2012real} with a real-time volume rendering technique. \\
+As well as deterministic tractography has been the main topic in different academic works, many researchers focused their attention to find an effective way to deal with the intrinsic uncertainty embedded in DTI. Many visualizations, able to englobe the variability of the data, and error-reduction techniques have been proposed, but this topic is out of the scope of this work.
+
 
 \begin{figure}[H]
 \centering
-\includegraphics[width = 0.9\columnwidth]{realTimeTractography}
+\includegraphics[width = 0.8\columnwidth]{realTimeTractography}
 \caption{Tractography displayed using real time volume rendering approach proposed by Congote et al. in \cite{congote2012real}}
 \label{fig:weightedGraph}
 \end{figure}
@@ -205,7 +209,7 @@ On this trend, more recently with the emergence of computer graphics, new advanc
 \label{sec:futureWorks}
 Although all the methodologies proposed are quite interesting and the results may have a very positive impact on experts exploraration, still all of these visual analytic tools are affected by a lack of portability between platforms and the methods used are not usually described in a replicable manner. The applications have been written with a variety of languages that go from Matlab to Python, so they can be considered \textit{stand-alone} and \textit{local} applications. However, in the last few years the clear trend in computer science is to move all the services to the web. There are many reasons why we are witnessing this process. Among them I would like to remind the flexibility, cross-platform native feature and, not least, the higher and higher computational power that newer browser can support. This field is also shyly moving towards this kind of technology and web-based application. To this regard, the javascript library \textit{Xtoolkit} \cite{xToolkit} has been created to drive this natural flow. XToolkit is a framework its aim is to allow Javascript web-based visualization tools and it claims to be a "lightweight and fast" webGL framework for scientific visualization. Apart from wrapping many webGL functions, the main contribution offered by this tool is the possibility to read and load standard neuroscience file extensions. On the top of this framework, tools like Brain Browser \cite{brainBrowser} have been created. \\
 
-At the same time, the human connectome visualization is moving from 2D to a 3D space. Although there are no well-defined examples or complete applications that uses 3D modeling, still this transition seems to be the right path to follow. In fact, the last tools I have introduced before not only are changing the technology, but also are trying to use the potentiality of 3D to render in a more effective way the human brain Connectome. Those example are primitive, the interaction is limited and, at the moment, can not be compared to more established and complex visual analytics tools like the ones described in section \ref{sec:survey}.
+At the same time, the human connectomics visualization is moving from 2D space to a 3D one. Although there are no well-defined examples or complete applications that use 3D modeling, still this transition seems to be the right path to follow. In fact, the last tools I have introduced before not only are changing the technology, but also are trying to use the potentiality of 3D to render in a more effective way the human brain Connectome. Still, those example are primitive, the interaction is limited and, at the moment, can not be compared to more established and complex visual analytics tools like the ones described in section \ref{sec:survey}.
 
 \section{Conclusions}
 \label{sec:conclusions}
