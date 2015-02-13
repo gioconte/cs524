@@ -27,6 +27,26 @@ Timothy~EJ Behrens and Olaf Sporns.
 \newblock Human connectomics.
 \newblock {\em Current opinion in neurobiology}, 22(1):144--153, 2012.
 
+\bibitem{bullmore2009complex}
+Ed~Bullmore and Olaf Sporns.
+\newblock Complex brain networks: graph theoretical analysis of structural and
+  functional systems.
+\newblock {\em Nature Reviews Neuroscience}, 10(3):186--198, 2009.
+
+\bibitem{congote2012real}
+John Congote, Esther Novo, Luis Kabongo, Dan Ginsburg, Stephan Gerhard, Rudolph
+  Pienaar, and Oscar~E Ruiz.
+\newblock Real-time volume rendering and tractography visualization on the web.
+\newblock 2012.
+
+\bibitem{conturo1999tracking}
+Thomas~E Conturo, Nicolas~F Lori, Thomas~S Cull, Erbil Akbudak, Abraham~Z
+  Snyder, Joshua~S Shimony, Robert~C McKinstry, Harold Burton, and Marcus~E
+  Raichle.
+\newblock Tracking neuronal fiber pathways in the living human brain.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  96(18):10422--10427, 1999.
+
 \bibitem{connectomeVisualizationUtility}
 Roan~A. LaPlante, Linda Douw, Wei Tang, and Steven~M. Stufflebeam.
 \newblock The connectome visualization utility: Software for visualization of
@@ -39,11 +59,29 @@ Daniel~S Margulies, Joachim B{\"o}ttger, Aimi Watanabe, and Krzysztof~J
 \newblock Visualizing the human connectome.
 \newblock {\em NeuroImage}, 80:445--461, 2013.
 
+\bibitem{mori1999three}
+Susumu Mori, Barbara~J Crain, VP~Chacko, and Peter Van~Zijl.
+\newblock Three-dimensional tracking of axonal projections in the brain by
+  magnetic resonance imaging.
+\newblock {\em Annals of neurology}, 45(2):265--269, 1999.
+
 \bibitem{processAndPitfalls}
 Tamara Munzner.
 \newblock Process and pitfalls in writing information visualization research
   papers.
 \newblock In {\em Information visualization}, pages 134--153. Springer, 2008.
+
+\bibitem{peeters2006visualization}
+THJM Peeters, A~Vilanova, G~Strijkers, and BM~ter Haar~Romeny.
+\newblock Visualization of the fibrous structure of the heart.
+\newblock In {\em Vision, modelling and visualization}, pages 309--316, 2006.
+
+\bibitem{petrovic2007visualizing}
+Vid Petrovic, James Fallon, and Falko Kuester.
+\newblock Visualizing whole-brain dti tractography with gpu-based tuboids and
+  lod management.
+\newblock {\em Visualization and Computer Graphics, IEEE Transactions on},
+  13(6):1488--1495, 2007.
 
 \bibitem{complexNetworkMeasures}
 Mikail Rubinov and Olaf Sporns.
@@ -58,6 +96,12 @@ Ernesto~J Sanz-Arigita, Menno~M Schoonheim, Jessica~S Damoiseaux, Serge~ARB
 \newblock Loss of ‘small-world’networks in alzheimer's disease: graph
   analysis of fmri resting-state functional connectivity.
 \newblock {\em PloS one}, 5(11):e13788, 2010.
+
+\bibitem{stoll2005visualization}
+Carsten Stoll, Stefan Gumhold, and H-P Seidel.
+\newblock Visualization with stylized line primitives.
+\newblock In {\em Visualization, 2005. VIS 05. IEEE}, pages 695--702. IEEE,
+  2005.
 
 \bibitem{brainNetViewer}
 Mingrui Xia, Jinhui Wang, and Yong He.

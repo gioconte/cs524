@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.27)  11 FEB 2015 17:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.27)  12 FEB 2015 23:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -475,7 +475,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen133
 \Gm@dimlist=\toks24
 )
-(./STAR.aux)
+(./STAR.aux
+
+LaTeX Warning: Label `fig:weightedGraph' multiply defined.
+
+
+LaTeX Warning: Label `fig:weightedGraph' multiply defined.
+
+)
 \openout1 = `STAR.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -584,104 +591,127 @@ e
 [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-<taxonomy.png, id=12, 904.37875pt x 834.11626pt>
+[2] <taxonomy.png, id=16, 904.37875pt x 834.11626pt>
 File: taxonomy.png Graphic file (type png)
  <use taxonomy.png>
-Package pdftex.def Info: taxonomy.png used on input line 61.
+Package pdftex.def Info: taxonomy.png used on input line 62.
 (pdftex.def)             Requested size: 339.00621pt x 312.66556pt.
- [2]
+
 <connections.png, id=18, 524.96124pt x 525.965pt>
 File: connections.png Graphic file (type png)
  <use connections.png>
-Package pdftex.def Info: connections.png used on input line 76.
+Package pdftex.def Info: connections.png used on input line 77.
 (pdftex.def)             Requested size: 113.00302pt x 113.21669pt.
 
 <circle.png, id=19, 373.395pt x 275.0275pt>
 File: circle.png Graphic file (type png)
  <use circle.png>
-Package pdftex.def Info: circle.png used on input line 83.
+Package pdftex.def Info: circle.png used on input line 84.
 (pdftex.def)             Requested size: 113.00302pt x 83.2307pt.
 
 <matrix.png, id=20, 197.73875pt x 196.735pt>
 File: matrix.png Graphic file (type png)
  <use matrix.png>
-Package pdftex.def Info: matrix.png used on input line 89.
+Package pdftex.def Info: matrix.png used on input line 90.
 (pdftex.def)             Requested size: 113.00302pt x 112.43129pt.
- [3 <./taxonomy.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
  []
 
-<brain2.png, id=26, 820.06375pt x 604.2575pt>
+<brain2.png, id=21, 820.06375pt x 604.2575pt>
 File: brain2.png Graphic file (type png)
  <use brain2.png>
-Package pdftex.def Info: brain2.png used on input line 151.
+Package pdftex.def Info: brain2.png used on input line 152.
 (pdftex.def)             Requested size: 357.83813pt x 263.6797pt.
 
-<brain1.png, id=27, 760.8425pt x 201.75375pt>
+<brain1.png, id=22, 760.8425pt x 201.75375pt>
 File: brain1.png Graphic file (type png)
  <use brain1.png>
-Package pdftex.def Info: brain1.png used on input line 157.
+Package pdftex.def Info: brain1.png used on input line 158.
 (pdftex.def)             Requested size: 357.83813pt x 94.88892pt.
-
-Overfull \vbox (0.70207pt too high) has occurred while \output is active []
-
-
-[4 <./connections.png> <./circle.png> <./matrix.png>]
-<weightedGraphs.png, id=35, 1103.12125pt x 217.81375pt>
+ [3]
+<weightedGraphs.png, id=27, 1103.12125pt x 217.81375pt>
 File: weightedGraphs.png Graphic file (type png)
 
 <use weightedGraphs.png>
-Package pdftex.def Info: weightedGraphs.png used on input line 174.
+Package pdftex.def Info: weightedGraphs.png used on input line 175.
 (pdftex.def)             Requested size: 339.00621pt x 66.9366pt.
- [5 <./brain2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+ [4 <./taxonomy.png>] [5 <./connections.png> <./circle.png> <./matrix.png>] <ha
+irLike.png, id=39, 687.56876pt x 564.1075pt>
+File: hairLike.png Graphic file (type png)
+
+<use hairLike.png>
+Package pdftex.def Info: hairLike.png used on input line 189.
+(pdftex.def)             Requested size: 169.50166pt x 139.064pt.
+ [6 <./brain2.png> <./hairLike.png>]
+<realTimeTractography.png, id=45, 401.5pt x 383.4325pt>
+File: realTimeTractography.png Graphic file (type png)
+
+<use realTimeTractography.png>
+Package pdftex.def Info: realTimeTractography.png used on input line 198.
+(pdftex.def)             Requested size: 169.50166pt x 161.8772pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-[6 <./brain1.png> <./weightedGraphs.png>] (./STAR.bbl
+
+Overfull \vbox (1.38033pt too high) has occurred while \output is active []
+
+
+[7 <./brain1.png> <./weightedGraphs.png> <./realTimeTractography.png>]
+(./STAR.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 []\OT1/cmr/m/n/10 Brain browser.  $\OT1/cmtt/m/n/10 https : / /
  []
 
-[7]) [8] (./STAR.aux) ) 
+
+Underfull \hbox (badness 6658) in paragraph at lines 63--67
+[]\OT1/cmr/m/n/10 Susumu Mori, Bar-bara J Crain,
+ []
+
+[8]) [9] (./STAR.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3732 strings out of 493315
- 50308 string characters out of 6137904
- 132487 words of memory out of 5000000
- 7103 multiletter control sequences out of 15000+600000
+ 3750 strings out of 493315
+ 50685 string characters out of 6137904
+ 133561 words of memory out of 5000000
+ 7119 multiletter control sequences out of 15000+600000
  7331 words of font info for 27 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,6n,32p,2353b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
-.pfb>
-Output written on STAR.pdf (8 pages, 1806432 bytes).
+ 38i,6n,32p,1702b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
+cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on STAR.pdf (9 pages, 2188816 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
