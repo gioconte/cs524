@@ -47,6 +47,14 @@ Thomas~E Conturo, Nicolas~F Lori, Thomas~S Cull, Erbil Akbudak, Abraham~Z
 \newblock {\em Proceedings of the National Academy of Sciences},
   96(18):10422--10427, 1999.
 
+\bibitem{irimia2012patient}
+Andrei Irimia, Micah~C Chambers, Carinna~M Torgerson, Maria Filippou, David~A
+  Hovda, Jeffry~R Alger, Guido Gerig, Arthur~W Toga, Paul~M Vespa, Ron Kikinis,
+  et~al.
+\newblock Patient-tailored connectomics visualization for the assessment of
+  white matter atrophy in traumatic brain injury.
+\newblock {\em Frontiers in neurology}, 3, 2012.
+
 \bibitem{connectomeVisualizationUtility}
 Roan~A. LaPlante, Linda Douw, Wei Tang, and Steven~M. Stufflebeam.
 \newblock The connectome visualization utility: Software for visualization of
@@ -88,6 +96,13 @@ Mikail Rubinov and Olaf Sporns.
 \newblock Complex network measures of brain connectivity: uses and
   interpretations.
 \newblock {\em Neuroimage}, 52(3):1059--1069, 2010.
+
+\bibitem{salvador2005undirected}
+Raymond Salvador, John Suckling, Christian Schwarzbauer, and Ed~Bullmore.
+\newblock Undirected graphs of frequency-dependent functional connectivity in
+  whole brain networks.
+\newblock {\em Philosophical Transactions of the Royal Society B: Biological
+  Sciences}, 360(1457):937--946, 2005.
 
 \bibitem{alzheimer}
 Ernesto~J Sanz-Arigita, Menno~M Schoonheim, Jessica~S Damoiseaux, Serge~ARB
