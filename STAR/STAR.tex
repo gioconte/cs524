@@ -56,7 +56,7 @@ On the one hand there is \textit{diffusion tractography} that infers the path of
 \begin{figure*}[ht]
 \centering
 \includegraphics[width = 1.8\columnwidth]{taxonomy}
-\caption{Images taken from \cite{visualizingHumanConnectome}}
+\caption{Taxonomy proposed in \cite{visualizingHumanConnectome} to group human connectomics visualization tools.}
 \label{fig:taxonomy}
 \end{figure*}
 \section{Main Tasks}
@@ -69,8 +69,7 @@ Due to the high complexity of the brain network, \textit{exploration} is the the
 
 \textit{Comparison} is the other task that should be achieved by a visual analytics tool. For example, neuroscientists are usually interested in comparing healthy and diseased subjects, so that it is possible to understand if there are different connectivity patterns in the two brain networks, which connections are missing and which are still active. For example, in studies like the one proposed by Bassett et al. in \cite{hierarchicalOrganization}, the authors show there are topological and connectivity differences in schizophrenic patients with respect to healthy subjects. Other works like \cite{alzheimer} have shown that in Alzheimer's disease some functional connectivity properties of healthy people are not present in diseased patients . So, having an easy-to-use visualization tool could accelerate this process and could hopefully allow more interesting discoveries in the field.
 
-
-
+By interviewing neuroscientists, they stated they are also using dimensionality reduction methods such as Isomap to reduce the high-dimensional dataset in three-dimensions. Then, they are not only looking at the anatomical geometry of the brain. In fact, after applying the isomap technique is possible to obtain what is also called the \textit{intrinsic geometry} of the input dataset, that, in this case, is the brain. So, experts are looking for connectivity and structural patterns in healthy and diseased patients. In fact, differences in two isomaps, using data from two different patients, can be caused by both the structure of the geometry and the connections between the nodes.
 
 %
 %\begin{figure*}[ht]
@@ -135,22 +134,19 @@ Many visualization tools have been presented in the academic literature, but, be
 
 
 \subsection{Node-link diagrams}
-Node-link diagrams are one of the most used approach to represent graphs in general, and in particular to visualize the Connectome. The node-link diagrams could be based on 3D rendering or in a simple and flat 2D view. Recent visualization softwares like \textit{Connectome Visualization Utility} \cite{connectomeVisualizationUtility}  and \textit{Brain Net Viewer} \cite{brainNetViewer} provide this kind of 3D visualization. Usually, the dimension of the nodes is binded to some graph-based metrics, like nodal strength or nodal degree, while the weight of the edges is displayed using different colors or by changing diameter of the cylindrical link. Older studies on functional brain connectivity like the one proposed by Salvador et al. in \cite{salvador2005undirected}, instead, show a plain flat 2D node-link diagrams. Moreover, in this particular case, classical circular nodes are replaced by the name of the regions they stand for.\\ The main advantage of this approach is that it is possible to have a good overview of the entire graph and it is quite easy to understand which nodes are indirectly connected. With the usage of 3D rendering is also possible to give a spatial information and the tools locate the nodes following the real anatomical position. However, when the graph and the number of edges increase, the cleanness of the visualization is affected and the view becomes less intuitive and less understandable. Nonetheless, despite the usage of different dimensions to display the weight of the edges, their representation is not the most intuitive one. \\
+Node-link diagrams are one of the most used approach to represent graphs in general, and in particular to visualize the Connectome. The node-link diagrams could be based on 3D rendering or in a simple and flat 2D view. Recent visualization softwares like \textit{Connectome Visualization Utility} \cite{connectomeVisualizationUtility}, \textit{Brain Net Viewer} \cite{brainNetViewer} and \textit{Connectome Viewer Toolkit} \cite{connectomeViewer} provide this kind of 3D visualization. Usually, the dimension of the nodes is binded to some graph-based metrics, like nodal strength or nodal degree, while the weight of the edges is displayed using different colors or by changing diameter of the cylindrical link. Older studies on functional brain connectivity like the one proposed by Salvador et al. in \cite{salvador2005undirected}, instead, show a plain flat 2D node-link diagrams. Moreover, in this particular case, classical circular nodes are replaced by the name of the regions they stand for.\\ The main advantage of this approach is that it is possible to have a good overview of the entire graph and it is quite easy to understand which nodes are indirectly connected. With the usage of 3D rendering is also possible to give a spatial information and the tools locate the nodes following the real anatomical position. However, when the graph and the number of edges increase, the cleanness of the visualization is affected and the view becomes less intuitive and less understandable. Nonetheless, despite the usage of different dimensions to display the weight of the edges, their representation is not the most intuitive one. \\
 Figures \ref{fig:nodeLinkConnectome}, \ref{fig:nodeLinkBrainView} and \ref{fig:2DnodeLink} collect the different visualizations offered by the three different tools above mentioned.
 
 
 \subsection{Matrix-based diagrams}
 \label{subsec:matrixbased}
-The other well-known approach in graph visualization is the \textit{matrix-based} representation. Among all the software surveyed the only one who proposed this methodology is the Connectome Visualization Utility as it is showed in figure \ref{fig:matrix}. The main advantage of this methodology is the clarity conserved when displaying information about relatively big graphs (more than 20-30 nodes). It is also effective the color encoding to display the weight of the links. However, this approach hides the information about which nodes are indirectly connected. For this reason very often the matrix-based diagram and node-link diagram are combined together. In my opinion, the reason why only one tool proposed this approach is that people do not want to lose the spatial information embedded natively in the dataset usually collected. Although, in this tool it is possible to reorder columns and rows using the anatomical order and the alphabetical one. 
+The other well-known approach in graph visualization is the \textit{matrix-based} representation. Among all the software surveyed the only two of them which proposed this methodology are the Connectome Visualization Utility and the Connectome Visualization utility. The main advantage of this methodology is the clarity conserved when displaying information about relatively big graphs (more than 20-30 nodes). It is also effective the color encoding to display the weight of the links. However, this approach hides the information about the indirect connections there are between nodes. For this reason very often the matrix-based diagram and node-link diagram are combined together. In my opinion, the reason why only two tools proposed this approach is that people do not want to lose the spatial information embedded natively in the dataset usually collected. Although, in these tools it is possible to reorder columns and rows using the anatomical order and the alphabetical one. An example of matrix-based view is showed in figure \ref{fig:matrix}.
 \begin{figure}[H]
 \centering
 \includegraphics[width = 0.9\columnwidth]{matrix}
 \caption{The matrix-based diagram proposed in \cite{connectomeVisualizationUtility}. Columns and rows represent the regions, while a color encoding is used in the cells to represent the weight of the edges.}
 \label{fig:matrix}
 \end{figure}
-
-
-
 
 
 % Circle Views Compared
@@ -202,7 +198,7 @@ This approach is quite effective and clear even with the increase of the number 
 
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=1.9\columnwidth]{brain2}}
-\caption{Some screenshots of the working tool. The combination of the three kinds of visualization make the tool very flexible.}
+\caption{Some screenshots taken from Brain Net Viewer \cite{brainNetViewer}. The tool also allows to contextualize the node-link diagram with a 3D brain model.}
     \label{fig:brain2}
 \end{figure*}
 
@@ -226,7 +222,7 @@ This approach is quite effective and clear even with the increase of the number 
 \begin{figure*}[ht]
 \centering
 \includegraphics[width = 1.8\columnwidth]{weightedGraphs}
-\caption{Images taken from \cite{weightedGraphComparison}}
+\caption{The prototypes proposed by Arper et al. to easily compare weighted graphs. The first two images represents node-link diagrams, while the remaining four are different versions of matrix-based representations. Images taken from \cite{weightedGraphComparison}.}
 \label{fig:weightedGraph}
 \end{figure*}
 

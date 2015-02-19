@@ -47,6 +47,13 @@ Thomas~E Conturo, Nicolas~F Lori, Thomas~S Cull, Erbil Akbudak, Abraham~Z
 \newblock {\em Proceedings of the National Academy of Sciences},
   96(18):10422--10427, 1999.
 
+\bibitem{connectomeViewer}
+Stephan Gerhard, Alessandro Daducci, Alia Lemkaddem, Reto Meuli, Jean-Philippe
+  Thiran, and Patric Hagmann.
+\newblock The connectome viewer toolkit: an open source framework to manage,
+  analyze and visualize connectomes.
+\newblock {\em Frontiers in Neuroinformatics}, 5(3), 2011.
+
 \bibitem{irimia2012patient}
 Andrei Irimia, Micah~C Chambers, Carinna~M Torgerson, Maria Filippou, David~A
   Hovda, Jeffry~R Alger, Guido Gerig, Arthur~W Toga, Paul~M Vespa, Ron Kikinis,
