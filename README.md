@@ -1,5 +1,9 @@
 # cs524 -  Journal
 See my Connectome project at https://github.com/gioconte/Connectome.
+### "Our Brain is the City of Our Mind"
+Check this video out. A nice introduction to the Connectome.
+https://www.youtube.com/watch?v=XVN_dGXUzFs
+
 
 ### Brain Connectome Visualization for Feature Classification
 This poster has been presented in the context of SciVis 2014. Unfortunately only a 30-seconds-video is availabe on the web. Still the goal of this project seems to be very close to my Connectome project. From what it is possible to understand from the video, the visualization is in 2D and they use color coding to visualize edges and some of graph-based metrics like nodal strenght or nodal degree. Here is the video: http://vimeo.com/103347058
