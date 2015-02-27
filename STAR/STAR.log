@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.27)  25 FEB 2015 23:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.27)  26 FEB 2015 19:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -602,52 +602,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 [2] <connections.png, id=18, 524.96124pt x 525.965pt>
 File: connections.png Graphic file (type png)
  <use connections.png>
-Package pdftex.def Info: connections.png used on input line 116.
+Package pdftex.def Info: connections.png used on input line 118.
 (pdftex.def)             Requested size: 130.07486pt x 130.31918pt.
 
 <nodeLinkBrainView.png, id=19, 245.91875pt x 224.84pt>
 File: nodeLinkBrainView.png Graphic file (type png)
 
 <use nodeLinkBrainView.png>
-Package pdftex.def Info: nodeLinkBrainView.png used on input line 123.
+Package pdftex.def Info: nodeLinkBrainView.png used on input line 125.
 (pdftex.def)             Requested size: 130.07486pt x 118.9279pt.
 
 <2D-NodeLink.png, id=20, 647.41875pt x 575.14874pt>
 File: 2D-NodeLink.png Graphic file (type png)
  <use 2D-NodeLink.png>
-Package pdftex.def Info: 2D-NodeLink.png used on input line 129.
+Package pdftex.def Info: 2D-NodeLink.png used on input line 131.
 (pdftex.def)             Requested size: 130.07486pt x 115.55428pt.
 
 [3 <./taxonomy.png>] <matrix.png, id=25, 197.73875pt x 196.735pt>
 File: matrix.png Graphic file (type png)
 
 <use matrix.png>
-Package pdftex.def Info: matrix.png used on input line 148.
+Package pdftex.def Info: matrix.png used on input line 150.
 (pdftex.def)             Requested size: 195.10898pt x 194.11981pt.
  [4 <./connections.png> <./nodeLinkBrainView.png> <./2D-NodeLink.png>] <circleI
 rimia.png, id=33, 639.38875pt x 595.22375pt>
 File: circleIrimia.png Graphic file (type png)
 
 <use circleIrimia.png>
-Package pdftex.def Info: circleIrimia.png used on input line 163.
+Package pdftex.def Info: circleIrimia.png used on input line 165.
 (pdftex.def)             Requested size: 205.9491pt x 191.71977pt.
  <circle.png, id=34, 373.395pt x 275.0275pt>
 File: circle.png Graphic file (type png)
 
 <use circle.png>
-Package pdftex.def Info: circle.png used on input line 169.
+Package pdftex.def Info: circle.png used on input line 171.
 (pdftex.def)             Requested size: 205.9491pt x 151.69363pt.
  <brain2.png, id=35, 820.06375pt x 604.2575pt>
 File: brain2.png Graphic file (type png)
 
 <use brain2.png>
-Package pdftex.def Info: brain2.png used on input line 202.
+Package pdftex.def Info: brain2.png used on input line 204.
 (pdftex.def)             Requested size: 411.89821pt x 303.51103pt.
  <weightedGraphs.png, id=36, 1103.12125pt x 217.81375pt>
 File: weightedGraphs.png Graphic file (type png)
 
 <use weightedGraphs.png>
-Package pdftex.def Info: weightedGraphs.png used on input line 226.
+Package pdftex.def Info: weightedGraphs.png used on input line 228.
 (pdftex.def)             Requested size: 390.22127pt x 77.05022pt.
 
 Overfull \vbox (1.34547pt too high) has occurred while \output is active []
@@ -657,17 +657,17 @@ Overfull \vbox (1.34547pt too high) has occurred while \output is active []
 File: hairLike.png Graphic file (type png)
 
 <use hairLike.png>
-Package pdftex.def Info: hairLike.png used on input line 241.
+Package pdftex.def Info: hairLike.png used on input line 243.
 (pdftex.def)             Requested size: 173.43204pt x 142.28322pt.
  [6 <./circleIrimia.png> <./circle.png>]
 <realTimeTractography.png, id=47, 401.5pt x 383.4325pt>
 File: realTimeTractography.png Graphic file (type png)
 
 <use realTimeTractography.png>
-Package pdftex.def Info: realTimeTractography.png used on input line 252.
+Package pdftex.def Info: realTimeTractography.png used on input line 254.
 (pdftex.def)             Requested size: 173.43204pt x 165.63335pt.
  [7 <./brain2.png> <./hairLike.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
@@ -676,31 +676,36 @@ Overfull \vbox (1.48561pt too high) has occurred while \output is active []
 
 
 [8 <./weightedGraphs.png> <./realTimeTractography.png>] (./STAR.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 65--71
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+[]\OT1/cmr/m/n/10 Mukund Bal-a-sub-ra-ma-nian and Eric L
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--81
 []\OT1/cmr/m/n/10 Andrei Ir-imia, Micah C Cham-bers,
  []
 
 
-Underfull \hbox (badness 5726) in paragraph at lines 65--71
+Underfull \hbox (badness 5726) in paragraph at lines 75--81
 \OT1/cmr/m/n/10 Carinna M Torg-er-son, Maria Fil-ip-pou,
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 122--128
+Underfull \hbox (badness 10000) in paragraph at lines 132--138
 []\OT1/cmr/m/n/10 Ernesto J Sanz-Arigita, Menno M
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--128
+Underfull \hbox (badness 10000) in paragraph at lines 132--138
 \OT1/cmr/m/n/10 Schoonheim, Jes-sica S Damoi-seaux,
  []
 
 ) [10] (./STAR.aux) ) 
 Here is how much of TeX's memory you used:
- 3772 strings out of 493315
- 51238 string characters out of 6137904
- 134640 words of memory out of 5000000
- 7140 multiletter control sequences out of 15000+600000
+ 3775 strings out of 493315
+ 51271 string characters out of 6137904
+ 134655 words of memory out of 5000000
+ 7143 multiletter control sequences out of 15000+600000
  7023 words of font info for 26 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,6n,32p,1723b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -714,7 +719,7 @@ cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
 .pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
 pfb>
-Output written on STAR.pdf (10 pages, 2816618 bytes).
+Output written on STAR.pdf (10 pages, 2803097 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
