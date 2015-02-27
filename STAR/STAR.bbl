@@ -4,6 +4,10 @@
 Brain browser.
 \newblock \url{https://brainbrowser.cbrain.mcgill.ca/}.
 
+\bibitem{humanconnectomeproject}
+Human connectome project.
+\newblock \url{http://www.humanconnectome.org}.
+
 \bibitem{xToolkit}
 X toolkit.
 \newblock \url{https://github.com/xtk/X}.

@@ -3,48 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: STAR.aux
 The style file: plain.bst
 Database file #1: mybib.bib
+Warning--to sort, need author or key in humanconnectomeproject
 Warning--to sort, need author or key in xToolkit
 Warning--to sort, need author or key in brainBrowser
 Warning--empty journal in congote2012real
-You've used 25 entries,
+You've used 26 entries,
             2118 wiz_defined-function locations,
-            671 strings with 9487 characters,
-and the built_in function-call counts, 9828 in all, are:
-= -- 946
-> -- 580
+            674 strings with 9569 characters,
+and the built_in function-call counts, 9987 in all, are:
+= -- 961
+> -- 581
 < -- 4
-+ -- 232
++ -- 233
 - -- 204
-* -- 788
-:= -- 1637
-add.period$ -- 76
-call.type$ -- 25
-change.case$ -- 176
+* -- 793
+:= -- 1654
+add.period$ -- 78
+call.type$ -- 26
+change.case$ -- 179
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 312
-empty$ -- 683
+cite$ -- 30
+duplicate$ -- 319
+empty$ -- 706
 format.name$ -- 204
-if$ -- 2002
+if$ -- 2042
 int.to.chr$ -- 0
-int.to.str$ -- 25
+int.to.str$ -- 26
 missing$ -- 23
-newline$ -- 126
+newline$ -- 130
 num.names$ -- 46
-pop$ -- 164
+pop$ -- 172
 preamble$ -- 1
-purify$ -- 151
+purify$ -- 153
 quote$ -- 0
-skip$ -- 232
+skip$ -- 240
 stack$ -- 0
-substring$ -- 612
-swap$ -- 63
+substring$ -- 617
+swap$ -- 64
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
-warning$ -- 3
+type$ -- 104
+warning$ -- 4
 while$ -- 84
-width$ -- 27
-write$ -- 270
-(There were 3 warnings)
+width$ -- 28
+write$ -- 277
+(There were 4 warnings)

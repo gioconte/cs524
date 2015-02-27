@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.27)  26 FEB 2015 19:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.27)  26 FEB 2015 20:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -650,7 +650,7 @@ File: weightedGraphs.png Graphic file (type png)
 Package pdftex.def Info: weightedGraphs.png used on input line 228.
 (pdftex.def)             Requested size: 390.22127pt x 77.05022pt.
 
-Overfull \vbox (1.34547pt too high) has occurred while \output is active []
+Overfull \vbox (0.28992pt too high) has occurred while \output is active []
 
 
 [5 <./matrix.png>] <hairLike.png, id=41, 687.56876pt x 564.1075pt>
@@ -676,36 +676,36 @@ Overfull \vbox (1.48561pt too high) has occurred while \output is active []
 
 
 [8 <./weightedGraphs.png> <./realTimeTractography.png>] (./STAR.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
 []\OT1/cmr/m/n/10 Mukund Bal-a-sub-ra-ma-nian and Eric L
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--81
+Underfull \hbox (badness 10000) in paragraph at lines 79--85
 []\OT1/cmr/m/n/10 Andrei Ir-imia, Micah C Cham-bers,
  []
 
 
-Underfull \hbox (badness 5726) in paragraph at lines 75--81
+Underfull \hbox (badness 5726) in paragraph at lines 79--85
 \OT1/cmr/m/n/10 Carinna M Torg-er-son, Maria Fil-ip-pou,
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 132--138
+Underfull \hbox (badness 10000) in paragraph at lines 136--142
 []\OT1/cmr/m/n/10 Ernesto J Sanz-Arigita, Menno M
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--138
+Underfull \hbox (badness 10000) in paragraph at lines 136--142
 \OT1/cmr/m/n/10 Schoonheim, Jes-sica S Damoi-seaux,
  []
 
 ) [10] (./STAR.aux) ) 
 Here is how much of TeX's memory you used:
- 3775 strings out of 493315
- 51271 string characters out of 6137904
- 134655 words of memory out of 5000000
- 7143 multiletter control sequences out of 15000+600000
+ 3776 strings out of 493315
+ 51295 string characters out of 6137904
+ 134660 words of memory out of 5000000
+ 7144 multiletter control sequences out of 15000+600000
  7023 words of font info for 26 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,6n,32p,1723b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -719,7 +719,7 @@ cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
 .pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
 pfb>
-Output written on STAR.pdf (10 pages, 2803097 bytes).
+Output written on STAR.pdf (10 pages, 2803552 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
