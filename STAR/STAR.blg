@@ -6,45 +6,45 @@ Database file #1: mybib.bib
 Warning--to sort, need author or key in xToolkit
 Warning--to sort, need author or key in brainBrowser
 Warning--empty journal in congote2012real
-You've used 21 entries,
+You've used 22 entries,
             2118 wiz_defined-function locations,
-            646 strings with 8719 characters,
-and the built_in function-call counts, 8491 in all, are:
-= -- 818
-> -- 498
+            650 strings with 9018 characters,
+and the built_in function-call counts, 8926 in all, are:
+= -- 854
+> -- 541
 < -- 4
-+ -- 199
-- -- 176
-* -- 682
-:= -- 1400
-add.period$ -- 64
-call.type$ -- 21
-change.case$ -- 150
++ -- 216
+- -- 192
+* -- 723
+:= -- 1482
+add.period$ -- 67
+call.type$ -- 22
+change.case$ -- 161
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 269
-empty$ -- 594
-format.name$ -- 176
-if$ -- 1739
+cite$ -- 25
+duplicate$ -- 279
+empty$ -- 612
+format.name$ -- 192
+if$ -- 1819
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 19
-newline$ -- 106
-num.names$ -- 38
-pop$ -- 146
+int.to.str$ -- 22
+missing$ -- 20
+newline$ -- 111
+num.names$ -- 40
+pop$ -- 155
 preamble$ -- 1
-purify$ -- 129
+purify$ -- 139
 quote$ -- 0
-skip$ -- 200
+skip$ -- 208
 stack$ -- 0
-substring$ -- 547
-swap$ -- 59
+substring$ -- 552
+swap$ -- 60
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 88
 warning$ -- 3
-while$ -- 71
-width$ -- 23
-write$ -- 226
+while$ -- 73
+width$ -- 24
+write$ -- 237
 (There were 3 warnings)

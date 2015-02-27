@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.27)  18 FEB 2015 22:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.27)  25 FEB 2015 23:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -587,67 +587,67 @@ e
 <taxonomy.png, id=13, 904.37875pt x 834.11626pt>
 File: taxonomy.png Graphic file (type png)
  <use taxonomy.png>
-Package pdftex.def Info: taxonomy.png used on input line 58.
+Package pdftex.def Info: taxonomy.png used on input line 59.
 (pdftex.def)             Requested size: 390.22127pt x 359.89758pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-<connections.png, id=15, 524.96124pt x 525.965pt>
+[2] <connections.png, id=18, 524.96124pt x 525.965pt>
 File: connections.png Graphic file (type png)
  <use connections.png>
-Package pdftex.def Info: connections.png used on input line 114.
+Package pdftex.def Info: connections.png used on input line 116.
 (pdftex.def)             Requested size: 130.07486pt x 130.31918pt.
 
-<nodeLinkBrainView.png, id=16, 245.91875pt x 224.84pt>
+<nodeLinkBrainView.png, id=19, 245.91875pt x 224.84pt>
 File: nodeLinkBrainView.png Graphic file (type png)
 
 <use nodeLinkBrainView.png>
-Package pdftex.def Info: nodeLinkBrainView.png used on input line 121.
+Package pdftex.def Info: nodeLinkBrainView.png used on input line 123.
 (pdftex.def)             Requested size: 130.07486pt x 118.9279pt.
 
-<2D-NodeLink.png, id=17, 647.41875pt x 575.14874pt>
+<2D-NodeLink.png, id=20, 647.41875pt x 575.14874pt>
 File: 2D-NodeLink.png Graphic file (type png)
  <use 2D-NodeLink.png>
-Package pdftex.def Info: 2D-NodeLink.png used on input line 127.
+Package pdftex.def Info: 2D-NodeLink.png used on input line 129.
 (pdftex.def)             Requested size: 130.07486pt x 115.55428pt.
 
-[2] [3 <./taxonomy.png>] <matrix.png, id=25, 197.73875pt x 196.735pt>
+[3 <./taxonomy.png>] <matrix.png, id=25, 197.73875pt x 196.735pt>
 File: matrix.png Graphic file (type png)
 
 <use matrix.png>
-Package pdftex.def Info: matrix.png used on input line 146.
+Package pdftex.def Info: matrix.png used on input line 148.
 (pdftex.def)             Requested size: 195.10898pt x 194.11981pt.
  [4 <./connections.png> <./nodeLinkBrainView.png> <./2D-NodeLink.png>] <circleI
 rimia.png, id=33, 639.38875pt x 595.22375pt>
 File: circleIrimia.png Graphic file (type png)
 
 <use circleIrimia.png>
-Package pdftex.def Info: circleIrimia.png used on input line 161.
+Package pdftex.def Info: circleIrimia.png used on input line 163.
 (pdftex.def)             Requested size: 205.9491pt x 191.71977pt.
  <circle.png, id=34, 373.395pt x 275.0275pt>
 File: circle.png Graphic file (type png)
 
 <use circle.png>
-Package pdftex.def Info: circle.png used on input line 167.
+Package pdftex.def Info: circle.png used on input line 169.
 (pdftex.def)             Requested size: 205.9491pt x 151.69363pt.
  <brain2.png, id=35, 820.06375pt x 604.2575pt>
 File: brain2.png Graphic file (type png)
 
 <use brain2.png>
-Package pdftex.def Info: brain2.png used on input line 200.
+Package pdftex.def Info: brain2.png used on input line 202.
 (pdftex.def)             Requested size: 411.89821pt x 303.51103pt.
  <weightedGraphs.png, id=36, 1103.12125pt x 217.81375pt>
 File: weightedGraphs.png Graphic file (type png)
 
 <use weightedGraphs.png>
-Package pdftex.def Info: weightedGraphs.png used on input line 224.
+Package pdftex.def Info: weightedGraphs.png used on input line 226.
 (pdftex.def)             Requested size: 390.22127pt x 77.05022pt.
 
 Overfull \vbox (1.34547pt too high) has occurred while \output is active []
@@ -657,64 +657,67 @@ Overfull \vbox (1.34547pt too high) has occurred while \output is active []
 File: hairLike.png Graphic file (type png)
 
 <use hairLike.png>
-Package pdftex.def Info: hairLike.png used on input line 239.
+Package pdftex.def Info: hairLike.png used on input line 241.
 (pdftex.def)             Requested size: 173.43204pt x 142.28322pt.
- [6 <./circleIrimia.png> <./circle.png> <./hairLike.png>]
-<realTimeTractography.png, id=48, 401.5pt x 383.4325pt>
+ [6 <./circleIrimia.png> <./circle.png>]
+<realTimeTractography.png, id=47, 401.5pt x 383.4325pt>
 File: realTimeTractography.png Graphic file (type png)
 
 <use realTimeTractography.png>
-Package pdftex.def Info: realTimeTractography.png used on input line 250.
+Package pdftex.def Info: realTimeTractography.png used on input line 252.
 (pdftex.def)             Requested size: 173.43204pt x 165.63335pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+ [7 <./brain2.png> <./hairLike.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-[7 <./brain2.png> <./realTimeTractography.png>] (./STAR.bbl [8 <./weightedGraph
-s.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 58--64
+
+Overfull \vbox (1.48561pt too high) has occurred while \output is active []
+
+
+[8 <./weightedGraphs.png> <./realTimeTractography.png>] (./STAR.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 65--71
 []\OT1/cmr/m/n/10 Andrei Ir-imia, Micah C Cham-bers,
  []
 
 
-Underfull \hbox (badness 5726) in paragraph at lines 58--64
+Underfull \hbox (badness 5726) in paragraph at lines 65--71
 \OT1/cmr/m/n/10 Carinna M Torg-er-son, Maria Fil-ip-pou,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--121
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 122--128
 []\OT1/cmr/m/n/10 Ernesto J Sanz-Arigita, Menno M
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--121
+Underfull \hbox (badness 10000) in paragraph at lines 122--128
 \OT1/cmr/m/n/10 Schoonheim, Jes-sica S Damoi-seaux,
  []
 
-) [9] (./STAR.aux) ) 
+) [10] (./STAR.aux) ) 
 Here is how much of TeX's memory you used:
- 3771 strings out of 493315
- 51216 string characters out of 6137904
- 144635 words of memory out of 5000000
- 7139 multiletter control sequences out of 15000+600000
+ 3772 strings out of 493315
+ 51238 string characters out of 6137904
+ 134640 words of memory out of 5000000
+ 7140 multiletter control sequences out of 15000+600000
  7023 words of font info for 26 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,6n,32p,1718b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9
-.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
-pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.p
-fb>
-Output written on STAR.pdf (9 pages, 2809329 bytes).
+ 38i,6n,32p,1723b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
+pfb>
+Output written on STAR.pdf (10 pages, 2816618 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
