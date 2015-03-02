@@ -9,4 +9,7 @@ Representing data could be compared to a story and to narrow the goal of the vis
 A data representation should no be flat, so visualization designer should provide different layers through which the user can go and explore the different dimensions are present in a given dataset. Minor tales or stories should be represented. With the presence of multi-layers, they addressed this way of representing data as "non-linear storytelling". In fact, user can focus on the main story as well as dive into more specific details and then go back easily to the main one. 
 
 ##Visual encoding
-In the "non-linear storytelling" approach, visual encoding is extremely important. In fact, it is very important that the layered structure is clear enough so that the user can identify both the main story and the minor tales.
+In the "non-linear storytelling" approach, visual encoding is extremely important. In fact, it is very important that the layered structure is clear enough so that the user can identify both the main story and the minor tales. To achieve this critical goal, the author suggests many steps to go through during the design and developing phase:
+1. Create a main architecture of the visualization: create the main map in which you would like to locate all the elements of the main story.
+2. Build shaped elements of dimensionality and form: bind shape and form to quantitative and qualitative parameters as well as bind colors in order to allow categorizations.
+3. 
