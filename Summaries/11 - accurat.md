@@ -20,4 +20,6 @@ In the "non-linear storytelling" approach, visual encoding is extremely importan
 7.	Fine-tuning phase. Ensure that all the layers pop out correctly and the importance according to the hierarchy designed is reflected in the data representation.
 
 ##Comments
-This article is very well written and it presents a method useful when designing a data representation. 
+This article is very well written and it presents a method useful when designing a data representation. One of the more important aspect highlighted in the article is the one about the complexity. A good visualization should embrace complexity of the dataset and make it simple, so that the visualization could hopefully reveal something new about the world and the user can understand it. Then, the main challenge in data-visualization is to find effective ways to represent data-complexity, that is naturally embedded in the real world. Contextualize data in wider worlds by giving few insights and small elements could lead to different interpretations and could increase the understandability of the entire visualization.
+
+![Alt text](https://d262ilb51hltx0.cloudfront.net/max/1105/1*TMCxtDty3qAE_mJSkNxV-Q.jpeg)
