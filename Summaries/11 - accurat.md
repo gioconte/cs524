@@ -1,4 +1,4 @@
-#[The Architecture of a Data Visualization](https://medium.com/accurat-studio/the-architecture-of-a-data-visualization-470b807799b4)
+#[The Architecture of a Data Visualization](https://medium.com/accurat-studio/the-architecture-of-a-data-visualization-470b807799b4 "article")
 
 Accurat is an Italian company working in the frame of data visualization. This article describes and analyzes the design method usually followed to create a new visualization. The company is working on both static visualization, such us the one printed in newspapers, as well as dynamic and more interactive ones. There are some key points that must be clear when designing a new visualization tool or a static representation of a dataset. Let's see them more in details.
 
@@ -14,4 +14,10 @@ In the "non-linear storytelling" approach, visual encoding is extremely importan
 1.	Create a main architecture of the visualization: create the main map in which you would like to locate all the elements of the main story.
 2.	Build shaped elements of dimensionality and form: bind shape and form to quantitative and qualitative parameters as well as bind colors in order to allow categorizations.
 3.	Highlight internal relationships.
-4.	
+4.	Add labels and identifiers.
+5.	Add minor details to contextualize in a wider world the visualization.
+6.	Provide small legends and short descriptions to make general public familiar with the overall visualization and to assist them in the data explorations.
+7.	Fine-tuning phase. Ensure that all the layers pop out correctly and the importance according to the hierarchy designed is reflected in the data representation.
+
+##Comments
+This article is very well written and it presents a method useful when designing a data representation. 
