@@ -1,4 +1,9 @@
 #[ Weighted Graph Comparison Techniques for Brain Connectivity Analysis ](http://delivery.acm.org/10.1145/2480000/2470724/p483-alper.pdf?ip=131.193.76.114&id=2470724&acc=ACTIVE%20SERVICE&key=B63ACEF81C6334F5%2EAACB7351D18CAF98%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=631055731&CFTOKEN=92392225&__acm__=1425320081_03c06d62e2baa64f55b0756088b557ab)
+This paper clearly states what are the goal that the visualization aims at and lists the hypothesis for the experimentation phase. The evaluation phase is very well described as well as the results obtained. The hypothesis made are reasonable with respect to the goals/tasks described.
+Still there some aspects that make me confuse, precisely:
+*	Although they based all the paper upon connectome data and focus their approach on those kind of visualization, to test their new technique they use synthetic data.
+*	Only 11 people test the visualization techniques. Is this a relevant statistical sample? Which is the confidence of those result.
+*	When the authors present the completion time, they discard the time spent for wrong answers. In my opinion, the completion time of a given task is interesting on itself whether or not the answer is correct. Of course, comparing also the completion time for correct and wrong answers could give deeper insight, but discarding a priori wrong answer did not convince me completely.
 
 ##Goals
 1.	Identify connections and their weight. 
@@ -10,7 +15,7 @@
 7.	Inspecting each dimension of a multi-dimensional dataset, such as the one about connectome
 8.	Easy exploration: visualization flexibility in terms of level of abstraction, perspective and data that can be visualized.
 9.	Visualize the shortest path tree given a root node
-10.	
+10.	Visualize graph-based metrics such as nodal strength, nodal efficiency etc. more metrics at [here].
 
 
 ##Hypothesis
@@ -30,5 +35,5 @@
 1.	*Accuracy test*. Given a set of edges ask the user to compare their weight and see which is the accuracy achieved, namely how many times the user identify the most/least weighted edge.
 1.	*Accuracy test*. Given two nodes, ask to the user if they are directly connected.
 1.	*Accuracy test*. Given a node, ask the user to count the number of edges that go through that node.
-1.	*Performance test*. Measure how much time user spend before giving the answer, whether it is correct or not. Also known as *completion time* test.
+1.	*Performance test*. Measure how much time user spend before giving the answer, whether it is correct or not. Also known as *completion time* test. This test could be performed together with the afore mentioned test.
 1. Ask user if they can have an insight of the structure and if they can link what they see to a real object/shape. (Here the question is more psychological: how do people perceive the structure of an object?). A weak test could be to check if people can point out a similar real object or shape and how much time they spend to give an answer. In order to get more accurate result, the test can propose a set of predefined shapes and then we can see if users' answers converge or not.
