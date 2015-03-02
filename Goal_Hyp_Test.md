@@ -1,9 +1,25 @@
 #[ Weighted Graph Comparison Techniques for Brain Connectivity Analysis ](http://dl.acm.org/citation.cfm?id=2470724)
 This paper clearly states what are the goal that the visualization aims at and lists the hypothesis for the experimentation phase. The evaluation phase is very well described as well as the results obtained. The hypothesis made are reasonable with respect to the goals/tasks described.
+In this paper, authors are comparing different flavors of node-link diagram and matrix-based diagram to compare general weighted-graphs.
+Goals are as follows:
+*	"Assess weight change of a node’s connections (Trend)"
+*	"Assess connectivity of common neighbors (Connectivity)"
+*	"Identify the region with most changes (Region)"
+
+Hypothesis:
+*	"For the Trend task, we expected Matrix to outperform (accuracy and completion time) Node-Link for high-density
+datasets. "
+*	"For the Connectivity task, we expected Matrix not to outperform Node-Link"
+*	"For the Region task, we expected Matrix to outperform Node-Link (accuracy and completion time)"
+*	"Overall, we expected Node-Link to decrease in performance (accuracy and completion time) for Dense datasets"
+
+For what concern the tests made, they measured the accuracy of the given answers and the completion time to give an answer as it is mentioned in the hypothesis.
+
 Still there some aspects that make me confuse, precisely:
 *	Although they based all the paper upon connectome data and focus their approach on those kind of visualization, to test their new technique they use synthetic data.
 *	Only 11 people test the visualization techniques. Is this a relevant statistical sample? Which is the confidence of those result.
 *	When the authors present the completion time, they discard the time spent for wrong answers. In my opinion, the completion time of a given task is interesting on itself whether or not the answer is correct. Of course, comparing also the completion time for correct and wrong answers could give deeper insight, but discarding a priori wrong answer did not convince me completely.
+
 
 ##Goals
 1.	Identify connections and their weight. 
@@ -21,7 +37,7 @@ Still there some aspects that make me confuse, precisely:
 ##Hypothesis
 1.	Using different levels of transparency to highlight different weights is the right dimension and it is better than other techniques (width, colors).
 2.	The technique "Edges on demand" associated with different filters (according to the weight and the most weighted n edges) is better than visualize all the connections.
-3.	3D rendering and virtual reality are the techniques that can better represent the intrinsic geometry of the brain. 
+3.	3D rendering and virtual reality are the techniques that can better represent the intrinsic geometry of the brain rather than circle view or 2D node-link diagram.
 4.	Filtering by number of hops and maximum distance the shortest path tree is effective.
 5.	
 6.	
