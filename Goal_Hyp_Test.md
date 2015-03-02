@@ -1,4 +1,4 @@
-#[ Weighted Graph Comparison Techniques for Brain Connectivity Analysis ](http://delivery.acm.org/10.1145/2480000/2470724/p483-alper.pdf?ip=131.193.76.114&id=2470724&acc=ACTIVE%20SERVICE&key=B63ACEF81C6334F5%2EAACB7351D18CAF98%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=631055731&CFTOKEN=92392225&__acm__=1425320081_03c06d62e2baa64f55b0756088b557ab)
+#[ Weighted Graph Comparison Techniques for Brain Connectivity Analysis ](http://dl.acm.org/citation.cfm?id=2470724)
 This paper clearly states what are the goal that the visualization aims at and lists the hypothesis for the experimentation phase. The evaluation phase is very well described as well as the results obtained. The hypothesis made are reasonable with respect to the goals/tasks described.
 Still there some aspects that make me confuse, precisely:
 *	Although they based all the paper upon connectome data and focus their approach on those kind of visualization, to test their new technique they use synthetic data.
