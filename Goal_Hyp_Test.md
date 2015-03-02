@@ -2,7 +2,12 @@
 
 ##Goals
 1.	Identify connections and their weight. Being able to easily compare them.
-2.	
+2.	Identify structural patterns in the intrinsic geometry.
+3.	Identify the effects of virtual injuries
+4.	Identify the absolute importance of given brain regions.
+5.	Compare different data reduction techniques on the same dataset
+6.	Inspecting each dimension of the multi-dimensional dataset, such as the one about connectome
+7.	
 
 
 ##Hypothesis
@@ -10,4 +15,4 @@
 
 
 ##Tests
-1.	Accuracy test. Given a set of edges ask the user to compare them and see which is the accuracy achieved, namely how many times the user identify the most/least weighted edge.
+1.	Accuracy test. Given a set of edges ask the user to compare their weight and see which is the accuracy achieved, namely how many times the user identify the most/least weighted edge.
