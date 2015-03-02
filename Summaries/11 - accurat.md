@@ -10,6 +10,8 @@ A data representation should no be flat, so visualization designer should provid
 
 ##Visual encoding
 In the "non-linear storytelling" approach, visual encoding is extremely important. In fact, it is very important that the layered structure is clear enough so that the user can identify both the main story and the minor tales. To achieve this critical goal, the author suggests many steps to go through during the design and developing phase:
-1. Create a main architecture of the visualization: create the main map in which you would like to locate all the elements of the main story.
-2. Build shaped elements of dimensionality and form: bind shape and form to quantitative and qualitative parameters as well as bind colors in order to allow categorizations.
-3. 
+
+1.	Create a main architecture of the visualization: create the main map in which you would like to locate all the elements of the main story.
+2.	Build shaped elements of dimensionality and form: bind shape and form to quantitative and qualitative parameters as well as bind colors in order to allow categorizations.
+3.	Highlight internal relationships.
+4.	
