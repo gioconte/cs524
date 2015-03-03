@@ -31,17 +31,17 @@ Still there some aspects that make me confuse, precisely:
 7.	Inspecting each dimension of a multi-dimensional dataset, such as the one about connectome
 8.	Easy exploration: visualization flexibility in terms of level of abstraction, perspective and data that can be visualized.
 9.	Visualize the shortest path tree given a root node
-10.	Visualize graph-based metrics such as nodal strength, nodal efficiency etc. more metrics at [here].
+10.	Visualize graph-based metrics such as nodal strength, nodal efficiency etc. more metrics [here](http://www.sciencedirect.com/science/article/pii/S105381190901074X).
 
 
 ##Hypothesis
 1.	Using different levels of transparency to highlight different weights is the right dimension and it is better than other techniques (width, colors).
 2.	The technique "Edges on demand" associated with different filters (according to the weight and the most weighted n edges) is better than visualize all the connections.
-3.	3D rendering and virtual reality are the techniques that can better represent the intrinsic geometry of the brain rather than circle view or 2D node-link diagram.
+3.	3D rendering and virtual reality are the techniques that can better represent the intrinsic geometry of the brain rather than circle views or 2D node-link diagram.
 4.	Filtering by number of hops and maximum distance the shortest path tree is effective.
-5.	
-6.	
-7.	
+5.	Billboarding guarantees the minimum performances for rendering the graph
+6.	A javascript web-based application guarantees the minimum flexibility and cross-platform feature required
+7.	Filtering edges according to their weight (fixed threshold or first n most weighted edges) is effective
 8.	
 9.	
 10.	
