@@ -35,21 +35,21 @@ Still there some aspects that make me confuse, precisely:
 
 
 ##Hypothesis
-1.	Using different levels of transparency to highlight different weights is the right dimension and it is better than other techniques (width, colors).
+1.	Using different levels of transparency to highlight different weights is the right dimension to use and it is better than other techniques (width, colors).
 2.	The technique "Edges on demand" associated with different filters (according to the weight and the most weighted n edges) is better than visualize all the connections.
-3.	3D rendering and virtual reality are the techniques that can better represent the intrinsic geometry of the brain rather than circle views or 2D node-link diagram.
+3.	3D rendering and virtual reality are the techniques that can better represent the intrinsic geometry of the brain rather than circle views or matrix-based diagram.
 4.	Filtering by number of hops and maximum distance the shortest path tree is effective.
 5.	Billboarding guarantees the minimum performances for rendering the graph
 6.	A javascript web-based application guarantees the minimum flexibility and cross-platform feature required
 7.	Filtering edges according to their weight (fixed threshold or first n most weighted edges) is effective
-8.	
-9.	
+8.	Using Leap Motion makes the visualization more interactive and engaging.
+9.	Combine 2D and 3D graph visualization give a better overview of the entire network.
 10.	
 
 
 ##Tests
-1.	*Accuracy test*. Given a set of edges ask the user to compare their weight and see which is the accuracy achieved, namely how many times the user identify the most/least weighted edge.
+1.	*Accuracy test*. Given a set of edges ask the user to compare their weight and see which the accuracy achieved is, namely how many times the user identify the most/least weighted edge.
 1.	*Accuracy test*. Given two nodes, ask to the user if they are directly connected.
 1.	*Accuracy test*. Given a node, ask the user to count the number of edges that go through that node.
-1.	*Performance test*. Measure how much time user spend before giving the answer, whether it is correct or not. Also known as *completion time* test. This test could be performed together with the afore mentioned test.
+1.	*Performance test*. Measure how much time user spend before giving the answer, whether it is correct or not. Also known as *completion time* test. This test could be performed together with the afore mentioned tests.
 1. Ask user if they can have an insight of the structure and if they can link what they see to a real object/shape. (Here the question is more psychological: how do people perceive the structure of an object?). A weak test could be to check if people can point out a similar real object or shape and how much time they spend to give an answer. In order to get more accurate result, the test can propose a set of predefined shapes and then we can see if users' answers converge or not.
