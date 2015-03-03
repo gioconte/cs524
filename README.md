@@ -1,6 +1,8 @@
 # cs524 -  Journal
 See my Connectome project at https://github.com/gioconte/Connectome.
 
+### [C. *elegans* Connectome explorer](https://synergenz.github.io/elegans.html)
+C. *elegans* is a connectome explorer tool build with d3.js. This tool is still under development, but the authors decide to go for a 2D representation of the human brain's connectome. The graph is displayed using a directed force-layout. 
 
 ### Graph Visualization Demo.
 [Here](http://ubietylab.net/ubigraph/content/Demos/Carnival.html) some 3D graph animations with a software called **Ubigraph**. This software is using a dynamic, randomized coarsening algorithm. More details about the algorithm can be found [here](http://ubietylab.net/ubigraph/content/Papers/pdf/GraphViz.pdf).
