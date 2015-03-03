@@ -37,14 +37,14 @@ Still there some aspects that make me confuse, precisely:
 ##Hypothesis
 1.	Using different levels of transparency to highlight different weights is the right dimension to use and it is better than other techniques (width, colors).
 2.	The technique "Edges on demand" associated with different filters (according to the weight and the most weighted n edges) is better than visualize all the connections.
-3.	3D rendering and virtual reality are the techniques that can better represent the intrinsic geometry of the brain rather than circle views or matrix-based diagram.
+3.	3D rendering can better represent the intrinsic geometry of the brain rather than circle views or matrix-based diagram.
+4.	Virtual reality can enhance the interactivity of the visualization tool and let the experts better understand features of human brain's connectome.
 4.	Filtering by number of hops and maximum distance the shortest path tree is effective.
-5.	Billboarding guarantees the minimum performances for rendering the graph
-6.	A javascript web-based application guarantees the minimum flexibility and cross-platform feature required
-7.	Filtering edges according to their weight (fixed threshold or first n most weighted edges) is effective
+5.	Billboarding guarantees the minimum performances for rendering the graph.
+6.	A javascript web-based application guarantees the minimum flexibility and cross-platform feature required.
+7.	Filtering edges according to their weight (fixed threshold or first n most weighted edges) is effective.
 8.	Using Leap Motion makes the visualization more interactive and engaging.
-9.	Combine 2D and 3D graph visualization give a better overview of the entire network.
-10.	
+9.	Combining 2D and 3D graph visualization gives a better overview of the a subset of the network.
 
 
 ##Tests
