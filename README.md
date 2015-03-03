@@ -1,5 +1,11 @@
 # cs524 -  Journal
 See my Connectome project at https://github.com/gioconte/Connectome.
+
+
+### Graph Visualization Demo.
+[Here](http://ubietylab.net/ubigraph/content/Demos/Carnival.html) some 3D graph animations with a software called **Ubigraph**. This software is using a dynamic, randomized coarsening algorithm. More details about the algorithm can be found [here](http://ubietylab.net/ubigraph/content/Papers/pdf/GraphViz.pdf).
+![Video](http://ubietylab.net.s3.amazonaws.com/DemoReel.mov)
+ 
 ### "Our Brain is the City of Our Mind"
 Check this video out. A nice introduction to the Connectome.
 https://www.youtube.com/watch?v=XVN_dGXUzFs
